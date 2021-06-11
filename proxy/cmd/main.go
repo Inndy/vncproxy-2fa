@@ -14,6 +14,7 @@ func main() {
 	var tcpPort = flag.String("tcpPort", "", "tcp port")
 	var wsPort = flag.String("wsPort", "", "websocket port")
 	var vncPass = flag.String("vncPass", "", "password on incoming vnc connections to the proxy, defaults to no password")
+	var otpSecret = flag.String("otpSecret", "", "TOTP secret")
 	var recordDir = flag.String("recDir", "", "path to save FBS recordings WILL NOT RECORD if not defined.")
 	var targetVnc = flag.String("target", "", "target vnc server (host:port or /path/to/unix.socket)")
 	var targetVncPort = flag.String("targPort", "", "target vnc server port (deprecated, use -target)")
@@ -36,8 +37,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	if *vncPass == "" {
-		logger.Warn("proxy will have no password")
+	if *vncPass == "" && *otpSecret == "" {
+		logger.Warn("proxy will have no password nor TOTP protection")
 	}
 
 	tcpURL := ""
@@ -52,6 +53,8 @@ func main() {
 		WsListeningURL:   wsURL, // empty = not listening on ws
 		TCPListeningURL:  tcpURL,
 		ProxyVncPassword: *vncPass, //empty = no auth
+		ProxyTOTPSecret: *otpSecret,
+
 		SingleSession: &vncproxy.VncSession{
 			Target:         *targetVnc,
 			TargetHostname: *targetVncHost,

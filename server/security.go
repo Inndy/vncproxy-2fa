@@ -7,6 +7,8 @@ import (
 	"errors"
 	"log"
 	"github.com/amitbet/vncproxy/common"
+	"time"
+	"github.com/pquerna/otp/totp"
 )
 
 type SecurityType uint8
@@ -235,6 +237,23 @@ func (auth *ServerAuthVNC) Auth(c common.IServerConn) error {
 		return errors.New("Authentication failed")
 	}
 	return nil
+}
+
+type ServerTOTPAuthVNC struct {
+	Secret string
+}
+
+func (*ServerTOTPAuthVNC) Type() SecurityType {
+	return SecTypeVNC
+}
+
+func (*ServerTOTPAuthVNC) SubType() SecuritySubType {
+	return SecSubTypeUnknown
+}
+
+func (auth *ServerTOTPAuthVNC) Auth(c common.IServerConn) error {
+	passcode, _ := totp.GenerateCode(auth.Secret, time.Now().UTC())
+	return (&ServerAuthVNC{passcode}).Auth(c)
 }
 
 // SetUint32 set 4 bytes at pos in buf to the val (in big endian format)

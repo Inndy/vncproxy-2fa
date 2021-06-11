@@ -1,0 +1,916 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/inndy/vncproxy/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+**Architecture**	README.md	/^## **Architecture**$/;"	s	chapter:VncProxy [![CircleCI](https://circleci.com/gh/amitbet/vncproxy/tree/master.svg?style=shield)](https://circleci.com/gh/amitbet/vncproxy/tree/master) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)
+0	.vscode/launch.json	/^                "-test.v"$/;"	s	array:configurations.0.args
+0	.vscode/launch.json	/^                "-test.v"$/;"	s	array:configurations.1.args
+0	.vscode/launch.json	/^                "-test.v"$/;"	s	array:configurations.3.args
+0	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+0	.vscode/launch.json	/^          {$/;"	o	array:configurations
+0	.vscode/tasks.json	/^                "-v",$/;"	s	array:tasks.0.args
+0	.vscode/tasks.json	/^                "-v",$/;"	s	array:tasks.1.args
+0	.vscode/tasks.json	/^        {$/;"	o	array:tasks
+1	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+1	.vscode/launch.json	/^        {$/;"	o	array:configurations
+1	.vscode/tasks.json	/^                ".\/..."$/;"	s	array:tasks.0.args
+1	.vscode/tasks.json	/^                ".\/..."$/;"	s	array:tasks.1.args
+1	.vscode/tasks.json	/^        {$/;"	o	array:tasks
+2	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+2	.vscode/launch.json	/^        {$/;"	o	array:configurations
+3	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+3	.vscode/launch.json	/^        {$/;"	o	array:configurations
+4	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+5	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	s	array:configurations.2.args
+AUTH_FAIL	server/security.go	/^const AUTH_FAIL = "Authentication Failure"$/;"	c	package:server
+AddListener	common/multi-listener.go	/^func (m *MultiListener) AddListener(listener SegmentConsumer) {$/;"	f	struct:common.MultiListener
+AndroidView	.idea/workspace.xml	/^      <pane id="AndroidView" \/>$/;"	i
+Ant Build	.idea/workspace.xml	/^      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type=/;"	i
+Auth	client/client-conn.go	/^	Auth []ClientAuth$/;"	m	struct:client.ClientConfig	typeref:typename:[]ClientAuth
+Auth	server/security.go	/^	Auth(common.IServerConn) error$/;"	n	interface:server.SecurityHandler	typeref:typename:error
+Auth	server/security.go	/^func (*ServerAuthNone) Auth(c common.IServerConn) error {$/;"	f	struct:server.ServerAuthNone	typeref:typename:error
+Auth	server/security.go	/^func (auth *ServerAuthVNC) Auth(c common.IServerConn) error {$/;"	f	struct:server.ServerAuthVNC	typeref:typename:error
+B	common/client-message-type.go	/^	R, G, B uint16$/;"	m	struct:common.Color	typeref:typename:uint16
+BPP	common/encoding.go	/^	BPP        uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+Bell	common/server-message-type.go	/^	Bell$/;"	c	package:common
+BigEndian	common/encoding.go	/^	BigEndian  uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+BlueMax	common/encoding.go	/^	BlueMax    uint16$/;"	m	struct:common.PixelFormat	typeref:typename:uint16
+BlueShift	common/encoding.go	/^	BlueShift  uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+Button4	client/pointer.go	/^	Button4$/;"	c	package:client
+Button5	client/pointer.go	/^	Button5$/;"	c	package:client
+Button6	client/pointer.go	/^	Button6$/;"	c	package:client
+Button7	client/pointer.go	/^	Button7$/;"	c	package:client
+Button8	client/pointer.go	/^	Button8$/;"	c	package:client
+ButtonLeft	client/pointer.go	/^	ButtonLeft ButtonMask = 1 << iota$/;"	c	package:client	typeref:type:ButtonMask
+ButtonMask	client/pointer.go	/^type ButtonMask uint8$/;"	t	package:client	typeref:typename:uint8
+ButtonMiddle	client/pointer.go	/^	ButtonMiddle$/;"	c	package:client
+ButtonRight	client/pointer.go	/^	ButtonRight$/;"	c	package:client
+Bytes	common/rfb-reader-helper.go	/^	Bytes              []byte$/;"	m	struct:common.RfbSegment	typeref:typename:[]byte
+Capture Analysis	.idea/workspace.xml	/^      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" interna/;"	i
+Capture Tool	.idea/workspace.xml	/^      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_typ/;"	i
+ClientAuth	client/client-conn.go	/^type ClientAuth interface {$/;"	i	package:client
+ClientAuthNone	client/client_auth.go	/^type ClientAuthNone byte$/;"	t	package:client	typeref:typename:byte
+ClientConfig	client/client-conn.go	/^type ClientConfig struct {$/;"	s	package:client
+ClientConn	client/client-conn.go	/^type ClientConn struct {$/;"	s	package:client
+ClientCutTextMsgType	common/client-message-type.go	/^	ClientCutTextMsgType$/;"	c	package:common
+ClientFenceMsgType	common/client-message-type.go	/^	ClientFenceMsgType          = 248$/;"	c	package:common
+ClientMessage	common/client-message-type.go	/^type ClientMessage interface {$/;"	i	package:common
+ClientMessageCaps	server/handlers.go	/^	ClientMessageCaps []TightCapability$/;"	m	struct:server.TightServerInit	typeref:typename:[]TightCapability
+ClientMessageType	common/client-message-type.go	/^type ClientMessageType uint8$/;"	t	package:common	typeref:typename:uint8
+ClientMessages	server/server.go	/^	ClientMessages   []common.ClientMessage$/;"	m	struct:server.ServerConfig	typeref:typename:[]common.ClientMessage
+ClientUpdater	proxy/message-listeners.go	/^type ClientUpdater struct {$/;"	s	package:proxy
+Close	client/client-conn.go	/^func (c *ClientConn) Close() error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+Close	client/client_auth_test.go	/^func (fc *fakeNetConnection) Close() error                       { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:error
+Close	recorder/recorder.go	/^func (r *Recorder) Close() {$/;"	f	struct:recorder.Recorder
+Close	server/server-conn.go	/^func (c *ServerConn) Close() error {$/;"	f	struct:server.ServerConn	typeref:typename:error
+CoRREEncoding	encodings/enc-corre.go	/^type CoRREEncoding struct {$/;"	s	package:encodings
+Code usage examples	README.md	/^### Code usage examples$/;"	S	section:VncProxy [![CircleCI](https://circleci.com/gh/amitbet/vncproxy/tree/master.svg?style=shield)](https://circleci.com/gh/amitbet/vncproxy/tree/master) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)""Usage:
+Color	common/client-message-type.go	/^type Color struct {$/;"	s	package:common
+ColorMap	client/client-conn.go	/^	ColorMap common.ColorMap$/;"	m	struct:client.ClientConn	typeref:typename:common.ColorMap
+ColorMap	common/client-message-type.go	/^type ColorMap [256]Color$/;"	t	package:common	typeref:typename:[256]Color
+ColorMap	server/server-conn.go	/^func (c *ServerConn) ColorMap() *common.ColorMap {$/;"	f	struct:server.ServerConn	typeref:typename:*common.ColorMap
+ColorMap	server/server.go	/^	ColorMap         *common.ColorMap$/;"	m	struct:server.ServerConfig	typeref:typename:*common.ColorMap
+Colors	client/server-messages.go	/^	Colors     []common.Color$/;"	m	struct:client.MsgSetColorMapEntries	typeref:typename:[]common.Color
+Commander	.idea/workspace.xml	/^      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type=/;"	i
+Conn	player/fbs-play-listener.go	/^	Conn             *server.ServerConn$/;"	m	struct:player.FBSPlayListener	typeref:typename:*server.ServerConn
+Conn	recorder/rfb-requester.go	/^	Conn            *client.ClientConn$/;"	m	struct:recorder.RfbRequester	typeref:typename:*client.ClientConn
+Conn	server/server-conn.go	/^func (c *ServerConn) Conn() io.ReadWriter {$/;"	f	struct:server.ServerConn	typeref:typename:io.ReadWriter
+Connect	client/client-conn.go	/^func (conn *ClientConn) Connect() error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+ConnectFbsFile	player/fbs-play-listener.go	/^func ConnectFbsFile(filename string, conn *server.ServerConn) (*FbsReader, error) {$/;"	f	package:player	typeref:typename:(*FbsReader, error)
+Consume	client/write-to.go	/^func (p *WriteTo) Consume(seg *common.RfbSegment) error {$/;"	f	struct:client.WriteTo	typeref:typename:error
+Consume	common/multi-listener.go	/^func (m *MultiListener) Consume(seg *RfbSegment) error {$/;"	f	struct:common.MultiListener	typeref:typename:error
+Consume	common/rfb-reader-helper.go	/^	Consume(*RfbSegment) error$/;"	n	interface:common.SegmentConsumer	typeref:typename:error
+Consume	player/fbs-play-listener.go	/^func (handler *FBSPlayListener) Consume(seg *common.RfbSegment) error {$/;"	f	struct:player.FBSPlayListener	typeref:typename:error
+Consume	proxy/message-listeners.go	/^func (cc *ClientUpdater) Consume(seg *common.RfbSegment) error {$/;"	f	struct:proxy.ClientUpdater	typeref:typename:error
+Consume	proxy/message-listeners.go	/^func (p *ServerUpdater) Consume(seg *common.RfbSegment) error {$/;"	f	struct:proxy.ServerUpdater	typeref:typename:error
+Consume	recorder/recorder.go	/^func (r *Recorder) Consume(data *common.RfbSegment) error {$/;"	f	struct:recorder.Recorder	typeref:typename:error
+Consume	recorder/rfb-requester.go	/^func (p *RfbRequester) Consume(seg *common.RfbSegment) error {$/;"	f	struct:recorder.RfbRequester	typeref:typename:error
+CopyRectEncoding	encodings/enc-copy-rect.go	/^type CopyRectEncoding struct {$/;"	s	package:encodings
+CopyTo	client/server-messages.go	/^func (fbm *MsgBell) CopyTo(r io.Reader, w io.Writer, c common.IClientConn) error {$/;"	f	type:client.MsgBell	typeref:typename:error
+CopyTo	client/server-messages.go	/^func (fbm *MsgFramebufferUpdate) CopyTo(r io.Reader, w io.Writer, c common.IClientConn) error {$/;"	f	struct:client.MsgFramebufferUpdate	typeref:typename:error
+CopyTo	client/server-messages.go	/^func (fbm *MsgServerCutText) CopyTo(r io.Reader, w io.Writer, c common.IClientConn) error {$/;"	f	struct:client.MsgServerCutText	typeref:typename:error
+CopyTo	client/server-messages.go	/^func (fbm *MsgServerFence) CopyTo(r io.Reader, w io.Writer, c common.IClientConn) error {$/;"	f	type:client.MsgServerFence	typeref:typename:error
+CopyTo	client/server-messages.go	/^func (fbm *MsgSetColorMapEntries) CopyTo(r io.Reader, w io.Writer, c common.IClientConn) error {$/;"	f	struct:client.MsgSetColorMapEntries	typeref:typename:error
+CopyTo	common/server-message-type.go	/^	CopyTo(r io.Reader, w io.Writer, c IClientConn) error$/;"	n	interface:common.ServerMessage	typeref:typename:error
+Coverage	.idea/workspace.xml	/^      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="/;"	i
+CurrentPixelFormat	client/client-conn.go	/^func (c *ClientConn) CurrentPixelFormat() *common.PixelFormat {$/;"	f	struct:client.ClientConn	typeref:typename:*common.PixelFormat
+CurrentPixelFormat	common/conn-interfaces.go	/^	CurrentPixelFormat() *PixelFormat$/;"	n	interface:common.IClientConn	typeref:typename:*PixelFormat
+CurrentPixelFormat	common/conn-interfaces.go	/^	CurrentPixelFormat() *PixelFormat$/;"	n	interface:common.IServerConn	typeref:typename:*PixelFormat
+CurrentPixelFormat	player/fbs-play-listener.go	/^	CurrentPixelFormat() *common.PixelFormat$/;"	n	interface:player.VncStreamFileReader	typeref:typename:*common.PixelFormat
+CurrentPixelFormat	player/fbs-reader.go	/^func (fbs *FbsReader) CurrentPixelFormat() *common.PixelFormat { return fbs.pixelFormat }$/;"	f	struct:player.FbsReader	typeref:typename:*common.PixelFormat
+CurrentPixelFormat	server/server-conn.go	/^func (c *ServerConn) CurrentPixelFormat() *common.PixelFormat {$/;"	f	struct:server.ServerConn	typeref:typename:*common.PixelFormat
+CurrentTimestamp	player/fbs-play-listener.go	/^	CurrentTimestamp() int$/;"	n	interface:player.VncStreamFileReader	typeref:typename:int
+CurrentTimestamp	player/fbs-reader.go	/^func (fbs *FbsReader) CurrentTimestamp() int {$/;"	f	struct:player.FbsReader	typeref:typename:int
+CutText	client/client-conn.go	/^func (c *ClientConn) CutText(text string) error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+Cvs	.idea/workspace.xml	/^      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCK/;"	i
+DataToSend	client/client_auth_test.go	/^	DataToSend []byte$/;"	m	struct:client.fakeNetConnection	typeref:typename:[]byte
+Database	.idea/workspace.xml	/^      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="/;"	i
+Debug	.idea/workspace.xml	/^      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DO/;"	i
+Debug	logger/logger.go	/^	Debug(v ...interface{})$/;"	n	interface:logger.Logger
+Debug	logger/logger.go	/^func (sl *SimpleLogger) Debug(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Debug	logger/logger.go	/^func Debug(v ...interface{}) {$/;"	f	package:logger
+Debugf	logger/logger.go	/^	Debugf(format string, v ...interface{})$/;"	n	interface:logger.Logger
+Debugf	logger/logger.go	/^func (sl *SimpleLogger) Debugf(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Debugf	logger/logger.go	/^func Debugf(format string, v ...interface{}) {$/;"	f	package:logger
+Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+DefaultClientMessages	server/server.go	/^var DefaultClientMessages = []common.ClientMessage{$/;"	v	package:server
+DeleteSession	proxy/session-manager.go	/^func (s *SessionManager) DeleteSession(sessionId string) error {$/;"	f	struct:proxy.SessionManager	typeref:typename:error
+Depth	common/encoding.go	/^	Depth      uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+Designer	.idea/workspace.xml	/^      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="D/;"	i
+DesktopName	client/client-conn.go	/^	DesktopName string$/;"	m	struct:client.ClientConn	typeref:typename:string
+DesktopName	common/conn-interfaces.go	/^	DesktopName() string$/;"	n	interface:common.IServerConn	typeref:typename:string
+DesktopName	server/server-conn.go	/^func (c *ServerConn) DesktopName() string {$/;"	f	struct:server.ServerConn	typeref:typename:string
+DesktopName	server/server.go	/^	DesktopName      []byte$/;"	m	struct:server.ServerConfig	typeref:typename:[]byte
+Down	server/client-messages.go	/^	Down uint8   \/\/ down-flag$/;"	m	struct:server.MsgKeyEvent	typeref:typename:uint8
+DownFlag	server/client-messages.go	/^	DownFlag       uint16 \/\/ down-flag$/;"	m	struct:server.MsgQEMUExtKeyEvent	typeref:typename:uint16
+Dynamic Properties	.idea/workspace.xml	/^      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" inter/;"	i
+Enc	common/rectangle.go	/^	Enc    IEncoding$/;"	m	struct:common.Rectangle	typeref:typename:IEncoding
+EncClientRedirect	common/encoding.go	/^	EncClientRedirect                EncodingType = -311$/;"	c	package:common	typeref:type:EncodingType
+EncCoRRE	common/encoding.go	/^	EncCoRRE                         EncodingType = 4$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel1	common/encoding.go	/^	EncCompressionLevel1             EncodingType = -256$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel10	common/encoding.go	/^	EncCompressionLevel10            EncodingType = -247$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel2	common/encoding.go	/^	EncCompressionLevel2             EncodingType = -255$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel3	common/encoding.go	/^	EncCompressionLevel3             EncodingType = -254$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel4	common/encoding.go	/^	EncCompressionLevel4             EncodingType = -253$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel5	common/encoding.go	/^	EncCompressionLevel5             EncodingType = -252$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel6	common/encoding.go	/^	EncCompressionLevel6             EncodingType = -251$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel7	common/encoding.go	/^	EncCompressionLevel7             EncodingType = -250$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel8	common/encoding.go	/^	EncCompressionLevel8             EncodingType = -249$/;"	c	package:common	typeref:type:EncodingType
+EncCompressionLevel9	common/encoding.go	/^	EncCompressionLevel9             EncodingType = -248$/;"	c	package:common	typeref:type:EncodingType
+EncContinuousUpdatesPseudo	common/encoding.go	/^	EncContinuousUpdatesPseudo       EncodingType = -313$/;"	c	package:common	typeref:type:EncodingType
+EncCopyRect	common/encoding.go	/^	EncCopyRect                      EncodingType = 1$/;"	c	package:common	typeref:type:EncodingType
+EncCursorPseudo	common/encoding.go	/^	EncCursorPseudo                  EncodingType = -239$/;"	c	package:common	typeref:type:EncodingType
+EncCursorPseudo	encodings/enc-cursor-pseudo.go	/^type EncCursorPseudo struct {$/;"	s	package:encodings
+EncDesktopSizePseudo	common/encoding.go	/^	EncDesktopSizePseudo             EncodingType = -223$/;"	c	package:common	typeref:type:EncodingType
+EncExtendedDesktopSizePseudo	common/encoding.go	/^	EncExtendedDesktopSizePseudo     EncodingType = -308$/;"	c	package:common	typeref:type:EncodingType
+EncFencePseudo	common/encoding.go	/^	EncFencePseudo                   EncodingType = -312$/;"	c	package:common	typeref:type:EncodingType
+EncHextile	common/encoding.go	/^	EncHextile                       EncodingType = 5$/;"	c	package:common	typeref:type:EncodingType
+EncJPEG	common/encoding.go	/^	EncJPEG                          EncodingType = 21$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo1	common/encoding.go	/^	EncJPEGQualityLevelPseudo1       EncodingType = -32$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo10	common/encoding.go	/^	EncJPEGQualityLevelPseudo10      EncodingType = -23$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo2	common/encoding.go	/^	EncJPEGQualityLevelPseudo2       EncodingType = -31$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo3	common/encoding.go	/^	EncJPEGQualityLevelPseudo3       EncodingType = -30$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo4	common/encoding.go	/^	EncJPEGQualityLevelPseudo4       EncodingType = -29$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo5	common/encoding.go	/^	EncJPEGQualityLevelPseudo5       EncodingType = -28$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo6	common/encoding.go	/^	EncJPEGQualityLevelPseudo6       EncodingType = -27$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo7	common/encoding.go	/^	EncJPEGQualityLevelPseudo7       EncodingType = -26$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo8	common/encoding.go	/^	EncJPEGQualityLevelPseudo8       EncodingType = -25$/;"	c	package:common	typeref:type:EncodingType
+EncJPEGQualityLevelPseudo9	common/encoding.go	/^	EncJPEGQualityLevelPseudo9       EncodingType = -24$/;"	c	package:common	typeref:type:EncodingType
+EncJRLE	common/encoding.go	/^	EncJRLE                          EncodingType = 22$/;"	c	package:common	typeref:type:EncodingType
+EncLastRectPseudo	common/encoding.go	/^	EncLastRectPseudo                EncodingType = -224$/;"	c	package:common	typeref:type:EncodingType
+EncLedStatePseudo	common/encoding.go	/^	EncLedStatePseudo                EncodingType = -261$/;"	c	package:common	typeref:type:EncodingType
+EncLedStatePseudo	encodings/enc-led-state.go	/^type EncLedStatePseudo struct {$/;"	s	package:encodings
+EncNum	server/client-messages.go	/^	EncNum    uint16  \/\/ number-of-encodings$/;"	m	struct:server.MsgSetEncodings	typeref:typename:uint16
+EncOffscreenCopyRect	common/encoding.go	/^	EncOffscreenCopyRect             EncodingType = 126 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncPointerPosPseudo	common/encoding.go	/^	EncPointerPosPseudo              EncodingType = -232$/;"	c	package:common	typeref:type:EncodingType
+EncQEMUExtendedKeyEventPseudo	common/encoding.go	/^	EncQEMUExtendedKeyEventPseudo    EncodingType = -258$/;"	c	package:common	typeref:type:EncodingType
+EncQEMUPointerMotionChangePseudo	common/encoding.go	/^	EncQEMUPointerMotionChangePseudo EncodingType = -257$/;"	c	package:common	typeref:type:EncodingType
+EncRRE	common/encoding.go	/^	EncRRE                           EncodingType = 2$/;"	c	package:common	typeref:type:EncodingType
+EncRaw	common/encoding.go	/^	EncRaw                           EncodingType = 0$/;"	c	package:common	typeref:type:EncodingType
+EncTRLE	common/encoding.go	/^	EncTRLE                          EncodingType = 15$/;"	c	package:common	typeref:type:EncodingType
+EncTight	common/encoding.go	/^	EncTight                         EncodingType = 7$/;"	c	package:common	typeref:type:EncodingType
+EncTightDiffComp	common/encoding.go	/^	EncTightDiffComp                 EncodingType = 22 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncTightPNGBase64	common/encoding.go	/^	EncTightPNGBase64                EncodingType = 21 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncTightPng	common/encoding.go	/^	EncTightPng                      EncodingType = -260$/;"	c	package:common	typeref:type:EncodingType
+EncUltra1	common/encoding.go	/^	EncUltra1                        EncodingType = 9$/;"	c	package:common	typeref:type:EncodingType
+EncUltra2	common/encoding.go	/^	EncUltra2                        EncodingType = 10$/;"	c	package:common	typeref:type:EncodingType
+EncVMWCursorPosition	common/encoding.go	/^	EncVMWCursorPosition             EncodingType = 102 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWCursorState	common/encoding.go	/^	EncVMWCursorState                EncodingType = 101 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWDefineCursor	common/encoding.go	/^	EncVMWDefineCursor               EncodingType = 100 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWFrameStamp	common/encoding.go	/^	EncVMWFrameStamp                 EncodingType = 124 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWLEDState	common/encoding.go	/^	EncVMWLEDState                   EncodingType = 104 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWServerCaps	common/encoding.go	/^	EncVMWServerCaps                 EncodingType = 122 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWServerPush2	common/encoding.go	/^	EncVMWServerPush2                EncodingType = 123 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncVMWTypematicInfo	common/encoding.go	/^	EncVMWTypematicInfo              EncodingType = 103 + 0x574d5600$/;"	c	package:common	typeref:type:EncodingType
+EncXvpPseudo	common/encoding.go	/^	EncXvpPseudo                     EncodingType = -309$/;"	c	package:common	typeref:type:EncodingType
+EncZRLE	common/encoding.go	/^	EncZRLE                          EncodingType = 16$/;"	c	package:common	typeref:type:EncodingType
+EncZlib	common/encoding.go	/^	EncZlib                          EncodingType = 6$/;"	c	package:common	typeref:type:EncodingType
+EncZlibHex	common/encoding.go	/^	EncZlibHex                       EncodingType = 8$/;"	c	package:common	typeref:type:EncodingType
+EncodingCaps	server/handlers.go	/^	EncodingCaps      []TightCapability$/;"	m	struct:server.TightServerInit	typeref:typename:[]TightCapability
+EncodingType	common/encoding.go	/^type EncodingType int32$/;"	t	package:common	typeref:typename:int32
+Encodings	client/client-conn.go	/^func (c *ClientConn) Encodings() []common.IEncoding {$/;"	f	struct:client.ClientConn	typeref:typename:[]common.IEncoding
+Encodings	common/conn-interfaces.go	/^	Encodings() []IEncoding$/;"	n	interface:common.IClientConn	typeref:typename:[]IEncoding
+Encodings	common/conn-interfaces.go	/^	Encodings() []IEncoding$/;"	n	interface:common.IServerConn	typeref:typename:[]IEncoding
+Encodings	player/fbs-play-listener.go	/^	Encodings() []common.IEncoding$/;"	n	interface:player.VncStreamFileReader	typeref:typename:[]common.IEncoding
+Encodings	player/fbs-reader.go	/^func (fbs *FbsReader) Encodings() []common.IEncoding { return fbs.encodings }$/;"	f	struct:player.FbsReader	typeref:typename:[]common.IEncoding
+Encodings	server/client-messages.go	/^	Encodings []common.EncodingType$/;"	m	struct:server.MsgSetEncodings	typeref:typename:[]common.EncodingType
+Encodings	server/server-conn.go	/^func (c *ServerConn) Encodings() []common.IEncoding {$/;"	f	struct:server.ServerConn	typeref:typename:[]common.IEncoding
+Encodings	server/server.go	/^	Encodings        []common.IEncoding$/;"	m	struct:server.ServerConfig	typeref:typename:[]common.IEncoding
+Encs	client/client-conn.go	/^	Encs []common.IEncoding$/;"	m	struct:client.ClientConn	typeref:typename:[]common.IEncoding
+EndByteCollection	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) EndByteCollection() []byte {$/;"	f	struct:common.RfbReadHelper	typeref:typename:[]byte
+Error	logger/logger.go	/^	Error(v ...interface{})$/;"	n	interface:logger.Logger
+Error	logger/logger.go	/^func (sl *SimpleLogger) Error(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Error	logger/logger.go	/^func Error(v ...interface{}) {$/;"	f	package:logger
+Errorf	logger/logger.go	/^	Errorf(format string, v ...interface{})$/;"	n	interface:logger.Logger
+Errorf	logger/logger.go	/^func (sl *SimpleLogger) Errorf(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Errorf	logger/logger.go	/^func Errorf(format string, v ...interface{}) {$/;"	f	package:logger
+Event Log	.idea/workspace.xml	/^      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type/;"	i
+Exclusive	client/client-conn.go	/^	Exclusive bool$/;"	m	struct:client.ClientConfig	typeref:typename:bool
+Executables (see releases)	README.md	/^### Executables (see releases)$/;"	S	chapter:VncProxy [![CircleCI](https://circleci.com/gh/amitbet/vncproxy/tree/master.svg?style=shield)](https://circleci.com/gh/amitbet/vncproxy/tree/master) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)
+ExpectData	client/client_auth_test.go	/^	ExpectData []byte$/;"	m	struct:client.fakeNetConnection	typeref:typename:[]byte
+FBHeight	common/server-message-type.go	/^	FBWidth, FBHeight uint16$/;"	m	struct:common.ServerInit	typeref:typename:uint16
+FBSPlayListener	player/fbs-play-listener.go	/^type FBSPlayListener struct {$/;"	s	package:player
+FBWidth	common/server-message-type.go	/^	FBWidth, FBHeight uint16$/;"	m	struct:common.ServerInit	typeref:typename:uint16
+Fatal	logger/logger.go	/^	Fatal(v ...interface{})$/;"	n	interface:logger.Logger
+Fatal	logger/logger.go	/^func (sl *SimpleLogger) Fatal(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Fatal	logger/logger.go	/^func Fatal(v ...interface{}) {$/;"	f	package:logger
+Fatalf	logger/logger.go	/^	Fatalf(format string, v ...interface{})$/;"	n	interface:logger.Logger
+Fatalf	logger/logger.go	/^func (sl *SimpleLogger) Fatalf(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Fatalf	logger/logger.go	/^func Fatalf(format string, v ...interface{}) {$/;"	f	package:logger
+Favorites	.idea/workspace.xml	/^      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="/;"	i
+Fbs	player/fbs-play-listener.go	/^	Fbs              VncStreamFileReader$/;"	m	struct:player.FBSPlayListener	typeref:typename:VncStreamFileReader
+FbsReader	player/fbs-reader.go	/^type FbsReader struct {$/;"	s	package:player
+FbsSegment	player/fbs-reader.go	/^type FbsSegment struct {$/;"	s	package:player
+Find	.idea/workspace.xml	/^      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOC/;"	i
+Finished	client/client_auth_test.go	/^	Finished   bool$/;"	m	struct:client.fakeNetConnection	typeref:typename:bool
+FirstColor	client/server-messages.go	/^	FirstColor uint16$/;"	m	struct:client.MsgSetColorMapEntries	typeref:typename:uint16
+FrameBufferHeight	client/client-conn.go	/^	FrameBufferHeight uint16$/;"	m	struct:client.ClientConn	typeref:typename:uint16
+FrameBufferWidth	client/client-conn.go	/^	FrameBufferWidth uint16$/;"	m	struct:client.ClientConn	typeref:typename:uint16
+FramebufferUpdate	common/server-message-type.go	/^	FramebufferUpdate ServerMessageType = iota$/;"	c	package:common	typeref:type:ServerMessageType
+FramebufferUpdate	server/server.go	/^type FramebufferUpdate struct {$/;"	s	package:server
+FramebufferUpdateRequest	client/client-conn.go	/^func (c *ClientConn) FramebufferUpdateRequest(incremental bool, x, y, width, height uint16) erro/;"	f	struct:client.ClientConn	typeref:typename:error
+FramebufferUpdateRequestMsgType	common/client-message-type.go	/^	FramebufferUpdateRequestMsgType$/;"	c	package:common
+G	common/client-message-type.go	/^	R, G, B uint16$/;"	m	struct:common.Color	typeref:typename:uint16
+GetLogLevel	logger/logger.go	/^func GetLogLevel(logLevel string) LogLevel {$/;"	f	package:logger	typeref:typename:LogLevel
+GetSession	proxy/session-manager.go	/^func (s *SessionManager) GetSession(sessionId string) (*VncSession, error) {$/;"	f	struct:proxy.SessionManager	typeref:typename:(*VncSession, error)
+GreenMax	common/encoding.go	/^	GreenMax   uint16$/;"	m	struct:common.PixelFormat	typeref:typename:uint16
+GreenShift	common/encoding.go	/^	GreenShift uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+HandleRfbSegment	recorder/recorder.go	/^func (r *Recorder) HandleRfbSegment(data *common.RfbSegment) error {$/;"	f	struct:recorder.Recorder	typeref:typename:error
+Handshake	client/client-conn.go	/^	Handshake(io.ReadWriteCloser) error$/;"	n	interface:client.ClientAuth	typeref:typename:error
+Handshake	client/client_auth.go	/^func (*ClientAuthNone) Handshake(closer io.ReadWriteCloser) error {$/;"	f	type:client.ClientAuthNone	typeref:typename:error
+Handshake	client/client_auth.go	/^func (p *PasswordAuth) Handshake(c io.ReadWriteCloser) error {$/;"	f	struct:client.PasswordAuth	typeref:typename:error
+Height	common/conn-interfaces.go	/^	Height() uint16$/;"	n	interface:common.IServerConn	typeref:typename:uint16
+Height	common/rectangle.go	/^	Height uint16$/;"	m	struct:common.Rectangle	typeref:typename:uint16
+Height	recorder/rfb-requester.go	/^	Height          uint16$/;"	m	struct:recorder.RfbRequester	typeref:typename:uint16
+Height	server/client-messages.go	/^	Width, Height uint16 \/\/ width, height$/;"	m	struct:server.MsgFramebufferUpdateRequest	typeref:typename:uint16
+Height	server/server-conn.go	/^func (c *ServerConn) Height() uint16 {$/;"	f	struct:server.ServerConn	typeref:typename:uint16
+Height	server/server.go	/^	Height           uint16$/;"	m	struct:server.ServerConfig	typeref:typename:uint16
+HextileAnySubrects	encodings/enc-hextile.go	/^	HextileAnySubrects         = 8$/;"	c	package:encodings
+HextileBackgroundSpecified	encodings/enc-hextile.go	/^	HextileBackgroundSpecified = 2$/;"	c	package:encodings
+HextileEncoding	encodings/enc-hextile.go	/^type HextileEncoding struct {$/;"	s	package:encodings
+HextileForegroundSpecified	encodings/enc-hextile.go	/^	HextileForegroundSpecified = 4$/;"	c	package:encodings
+HextileRaw	encodings/enc-hextile.go	/^	HextileRaw                 = 1$/;"	c	package:encodings
+HextileSubrectsColoured	encodings/enc-hextile.go	/^	HextileSubrectsColoured    = 16$/;"	c	package:encodings
+Hierarchy	.idea/workspace.xml	/^      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type=/;"	i
+IClientConn	common/conn-interfaces.go	/^type IClientConn interface {$/;"	i	package:common
+ID	proxy/vnc-session.go	/^	ID             string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+IEncoding	common/encoding.go	/^type IEncoding interface {$/;"	i	package:common
+IServerConn	common/conn-interfaces.go	/^type IServerConn interface {$/;"	i	package:common
+Image Layers	.idea/workspace.xml	/^      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_typ/;"	i
+Inc	server/client-messages.go	/^	Inc           uint8  \/\/ incremental$/;"	m	struct:server.MsgFramebufferUpdateRequest	typeref:typename:uint8
+Info	logger/logger.go	/^	Info(v ...interface{})$/;"	n	interface:logger.Logger
+Info	logger/logger.go	/^func (sl *SimpleLogger) Info(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Info	logger/logger.go	/^func Info(v ...interface{}) {$/;"	f	package:logger
+Infof	logger/logger.go	/^	Infof(format string, v ...interface{})$/;"	n	interface:logger.Logger
+Infof	logger/logger.go	/^func (sl *SimpleLogger) Infof(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Infof	logger/logger.go	/^func Infof(format string, v ...interface{}) {$/;"	f	package:logger
+Inspection	.idea/workspace.xml	/^      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_typ/;"	i
+IsDown	server/client-messages.go	/^	IsDown   uint16 \/\/ button down indicator$/;"	m	struct:server.MsgClientQemuExtendedKey	typeref:typename:uint16
+Key	server/client-messages.go	/^	Key  Key     \/\/ key$/;"	m	struct:server.MsgKeyEvent	typeref:typename:Key
+Key	server/client-messages.go	/^type Key uint32$/;"	t	package:server	typeref:typename:uint32
+KeyCode	server/client-messages.go	/^	KeyCode        uint32 \/\/ scan code$/;"	m	struct:server.MsgQEMUExtKeyEvent	typeref:typename:uint32
+KeyCode	server/client-messages.go	/^	KeyCode  uint32 \/\/ key code$/;"	m	struct:server.MsgClientQemuExtendedKey	typeref:typename:uint32
+KeyEvent	client/client-conn.go	/^func (c *ClientConn) KeyEvent(keysym uint32, down bool) error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+KeyEventMsgType	common/client-message-type.go	/^	KeyEventMsgType$/;"	c	package:common
+KeySym	server/client-messages.go	/^	KeySym         Key    \/\/ key symbol$/;"	m	struct:server.MsgQEMUExtKeyEvent	typeref:typename:Key
+KeySym	server/client-messages.go	/^	KeySym   uint32 \/\/ key symbol$/;"	m	struct:server.MsgClientQemuExtendedKey	typeref:typename:uint32
+Keys	server/client-messages.go	/^type Keys []Key$/;"	t	package:server	typeref:typename:[]Key
+LedState	encodings/enc-led-state.go	/^	LedState uint8$/;"	m	struct:encodings.EncLedStatePseudo	typeref:typename:uint8
+Length	server/client-messages.go	/^	Length uint32  \/\/ length$/;"	m	struct:server.MsgClientCutText	typeref:typename:uint32
+Listen	server/ws-server-go.go	/^func (wsServer *WsServer) Listen(urlStr string, handlerFunc WsHandler) {$/;"	f	struct:server.WsServer
+Listeners	client/client-conn.go	/^	Listeners *common.MultiListener$/;"	m	struct:client.ClientConn	typeref:typename:*common.MultiListener
+Listeners	common/rfb-reader-helper.go	/^	Listeners  *MultiListener$/;"	m	struct:common.RfbReadHelper	typeref:typename:*MultiListener
+Listeners	server/server-conn.go	/^	Listeners *common.MultiListener$/;"	m	struct:server.ServerConn	typeref:typename:*common.MultiListener
+LocalAddr	client/client_auth_test.go	/^func (fc *fakeNetConnection) LocalAddr() net.Addr                { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:net.Addr
+LogLevel	logger/logger.go	/^type LogLevel int$/;"	t	package:logger	typeref:typename:int
+LogLevelDebug	logger/logger.go	/^	LogLevelDebug$/;"	c	package:logger
+LogLevelError	logger/logger.go	/^	LogLevelError$/;"	c	package:logger
+LogLevelFatal	logger/logger.go	/^	LogLevelFatal$/;"	c	package:logger
+LogLevelInfo	logger/logger.go	/^	LogLevelInfo$/;"	c	package:logger
+LogLevelTrace	logger/logger.go	/^	LogLevelTrace LogLevel = iota$/;"	c	package:logger	typeref:type:LogLevel
+LogLevelWarn	logger/logger.go	/^	LogLevelWarn$/;"	c	package:logger
+Logger	logger/logger.go	/^type Logger interface {$/;"	i	package:logger
+Mask	server/client-messages.go	/^	Mask uint8  \/\/ button-mask$/;"	m	struct:server.MsgPointerEvent	typeref:typename:uint8
+Matched	client/client_auth_test.go	/^	Matched    bool$/;"	m	struct:client.fakeNetConnection	typeref:typename:bool
+Maven Projects	.idea/workspace.xml	/^      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_/;"	i
+Message	.idea/workspace.xml	/^      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="/;"	i
+Message	common/rfb-reader-helper.go	/^	Message            interface{}$/;"	m	struct:common.RfbSegment	typeref:typename:interface{}
+Messages	.idea/workspace.xml	/^      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type=/;"	i
+MsgBell	client/server-messages.go	/^type MsgBell byte$/;"	t	package:client	typeref:typename:byte
+MsgClientCutText	server/client-messages.go	/^type MsgClientCutText struct {$/;"	s	package:server
+MsgClientFence	server/client-messages.go	/^type MsgClientFence struct {$/;"	s	package:server
+MsgClientQemuExtendedKey	server/client-messages.go	/^type MsgClientQemuExtendedKey struct {$/;"	s	package:server
+MsgFramebufferUpdate	client/server-messages.go	/^type MsgFramebufferUpdate struct {$/;"	s	package:client
+MsgFramebufferUpdateRequest	server/client-messages.go	/^type MsgFramebufferUpdateRequest struct {$/;"	s	package:server
+MsgKeyEvent	server/client-messages.go	/^type MsgKeyEvent struct {$/;"	s	package:server
+MsgPointerEvent	server/client-messages.go	/^type MsgPointerEvent struct {$/;"	s	package:server
+MsgQEMUExtKeyEvent	server/client-messages.go	/^type MsgQEMUExtKeyEvent struct {$/;"	s	package:server
+MsgServerCutText	client/server-messages.go	/^type MsgServerCutText struct {$/;"	s	package:client
+MsgServerFence	client/server-messages.go	/^type MsgServerFence byte$/;"	t	package:client	typeref:typename:byte
+MsgSetColorMapEntries	client/server-messages.go	/^type MsgSetColorMapEntries struct {$/;"	s	package:client
+MsgSetEncodings	server/client-messages.go	/^type MsgSetEncodings struct {$/;"	s	package:server
+MsgSetPixelFormat	server/client-messages.go	/^type MsgSetPixelFormat struct {$/;"	s	package:server
+MultiListener	common/multi-listener.go	/^type MultiListener struct {$/;"	s	package:common
+Name	client/write-to.go	/^	Name   string$/;"	m	struct:client.WriteTo	typeref:typename:string
+Name	recorder/rfb-requester.go	/^	Name            string$/;"	m	struct:recorder.RfbRequester	typeref:typename:string
+NameLength	common/server-message-type.go	/^	NameLength        uint32$/;"	m	struct:common.ServerInit	typeref:typename:uint32
+NameText	common/server-message-type.go	/^	NameText          []byte$/;"	m	struct:common.ServerInit	typeref:typename:[]byte
+NewClientConn	client/client-conn.go	/^func NewClientConn(c net.Conn, cfg *ClientConfig) (*ClientConn, error) {$/;"	f	package:client	typeref:typename:(*ClientConn, error)
+NewConnHandler	server/server.go	/^	NewConnHandler ServerHandler$/;"	m	struct:server.ServerConfig	typeref:typename:ServerHandler
+NewFBSPlayListener	player/fbs-play-listener.go	/^func NewFBSPlayListener(conn *server.ServerConn, r *FbsReader) *FBSPlayListener {$/;"	f	package:player	typeref:typename:*FBSPlayListener
+NewFbsReader	player/fbs-reader.go	/^func NewFbsReader(fbsFile string) (*FbsReader, error) {$/;"	f	package:player	typeref:typename:(*FbsReader, error)
+NewPixelFormat	common/encoding.go	/^func NewPixelFormat(bpp uint8) *PixelFormat {$/;"	f	package:common	typeref:typename:*PixelFormat
+NewRecorder	recorder/recorder.go	/^func NewRecorder(saveFilePath string) (*Recorder, error) {$/;"	f	package:recorder	typeref:typename:(*Recorder, error)
+NewRfbReadHelper	common/rfb-reader-helper.go	/^func NewRfbReadHelper(r io.Reader) *RfbReadHelper {$/;"	f	package:common	typeref:typename:*RfbReadHelper
+NewServerConn	server/server-conn.go	/^func NewServerConn(c io.ReadWriter, cfg *ServerConfig) (*ServerConn, error) {$/;"	f	package:server	typeref:typename:(*ServerConn, error)
+Nl-Palette	.idea/workspace.xml	/^      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type=/;"	i
+NumRect	server/server.go	/^	NumRect uint16              \/\/ number-of-rectangles$/;"	m	struct:server.FramebufferUpdate	typeref:typename:uint16
+PF	server/client-messages.go	/^	PF common.PixelFormat \/\/ pixel-format$/;"	m	struct:server.MsgSetPixelFormat	typeref:typename:common.PixelFormat
+PackagesPane	.idea/workspace.xml	/^      <pane id="PackagesPane" \/>$/;"	i
+Palette	.idea/workspace.xml	/^      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="D/;"	i
+Palette\t	.idea/workspace.xml	/^      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_typ/;"	i
+ParseProtoVersion	server/handlers.go	/^func ParseProtoVersion(pv []byte) (uint, uint, error) {$/;"	f	package:server	typeref:typename:(uint, uint, error)
+Pass	server/security.go	/^	Pass string$/;"	m	struct:server.ServerAuthVNC	typeref:typename:string
+Password	client/client_auth.go	/^	Password string$/;"	m	struct:client.PasswordAuth	typeref:typename:string
+PasswordAuth	client/client_auth.go	/^type PasswordAuth struct {$/;"	s	package:client
+PixelFormat	client/client-conn.go	/^	PixelFormat common.PixelFormat$/;"	m	struct:client.ClientConn	typeref:typename:common.PixelFormat
+PixelFormat	common/encoding.go	/^type PixelFormat struct {$/;"	s	package:common
+PixelFormat	common/server-message-type.go	/^	PixelFormat       PixelFormat$/;"	m	struct:common.ServerInit	typeref:typename:PixelFormat
+PixelFormat	server/server.go	/^	PixelFormat      *common.PixelFormat$/;"	m	struct:server.ServerConfig	typeref:typename:*common.PixelFormat
+PointerEvent	client/client-conn.go	/^func (c *ClientConn) PointerEvent(mask ButtonMask, x, y uint16) error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+PointerEventMsgType	common/client-message-type.go	/^	PointerEventMsgType$/;"	c	package:common
+Problems	.idea/workspace.xml	/^      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type=/;"	i
+Project	.idea/workspace.xml	/^      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DO/;"	i
+Project	.idea/workspace.xml	/^      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOC/;"	i
+ProjectPane	.idea/workspace.xml	/^      <pane id="ProjectPane" \/>$/;"	i
+Properties	.idea/workspace.xml	/^      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type/;"	i
+ProtoVersion33	server/handlers.go	/^	ProtoVersion33      = "RFB 003.003\\n"$/;"	c	package:server
+ProtoVersion38	server/handlers.go	/^	ProtoVersion38      = "RFB 003.008\\n"$/;"	c	package:server
+ProtoVersionLength	server/handlers.go	/^const ProtoVersionLength = 12$/;"	c	package:server
+ProtoVersionUnknown	server/handlers.go	/^	ProtoVersionUnknown = ""$/;"	c	package:server
+Protocol	common/conn-interfaces.go	/^	Protocol() string$/;"	n	interface:common.IServerConn	typeref:typename:string
+Protocol	server/server-conn.go	/^func (c *ServerConn) Protocol() string {$/;"	f	struct:server.ServerConn	typeref:typename:string
+ProxyVncPassword	proxy/proxy.go	/^	ProxyVncPassword string      \/\/empty = no auth$/;"	m	struct:proxy.VncProxy	typeref:typename:string
+PseudoEncoding	encodings/enc-pseudo.go	/^type PseudoEncoding struct {$/;"	s	package:encodings
+PublishBytes	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) PublishBytes(p []byte) error {$/;"	f	struct:common.RfbReadHelper	typeref:typename:error
+QEMUExtendedKeyEventMsgType	common/client-message-type.go	/^	QEMUExtendedKeyEventMsgType = 255$/;"	c	package:common
+R	common/client-message-type.go	/^	R, G, B uint16$/;"	m	struct:common.Color	typeref:typename:uint16
+RBSFileName	recorder/recorder.go	/^	RBSFileName string$/;"	m	struct:recorder.Recorder	typeref:typename:string
+RREEncoding	encodings/enc-rre.go	/^type RREEncoding struct {$/;"	s	package:encodings
+RawEncoding	encodings/enc-raw.go	/^type RawEncoding struct {$/;"	s	package:encodings
+Read	client/client-conn.go	/^func (c *ClientConn) Read(bytes []byte) (n int, err error) {$/;"	f	struct:client.ClientConn	typeref:typename:(n int, err error)
+Read	client/client_auth_test.go	/^func (fc fakeNetConnection) Read(b []byte) (n int, err error) {$/;"	f	struct:client.fakeNetConnection	typeref:typename:(n int, err error)
+Read	client/server-messages.go	/^func (fbm *MsgFramebufferUpdate) Read(c common.IClientConn, r *common.RfbReadHelper) (common.Ser/;"	f	struct:client.MsgFramebufferUpdate	typeref:typename:(common.ServerMessage, error)
+Read	client/server-messages.go	/^func (m *MsgBell) Read(c common.IClientConn, r *common.RfbReadHelper) (common.ServerMessage, err/;"	f	type:client.MsgBell	typeref:typename:(common.ServerMessage, error)
+Read	client/server-messages.go	/^func (m *MsgServerCutText) Read(conn common.IClientConn, r *common.RfbReadHelper) (common.Server/;"	f	struct:client.MsgServerCutText	typeref:typename:(common.ServerMessage, error)
+Read	client/server-messages.go	/^func (m *MsgSetColorMapEntries) Read(c common.IClientConn, r *common.RfbReadHelper) (common.Serv/;"	f	struct:client.MsgSetColorMapEntries	typeref:typename:(common.ServerMessage, error)
+Read	client/server-messages.go	/^func (sf *MsgServerFence) Read(info common.IClientConn, c *common.RfbReadHelper) (common.ServerM/;"	f	type:client.MsgServerFence	typeref:typename:(common.ServerMessage, error)
+Read	common/client-message-type.go	/^	Read(io.Reader) (ClientMessage, error)$/;"	n	interface:common.ClientMessage	typeref:typename:(ClientMessage, error)
+Read	common/encoding.go	/^	Read(*PixelFormat, *Rectangle, *RfbReadHelper) (IEncoding, error)$/;"	n	interface:common.IEncoding	typeref:typename:(IEncoding, error)
+Read	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) Read(p []byte) (n int, err error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(n int, err error)
+Read	common/server-message-type.go	/^	Read(IClientConn, *RfbReadHelper) (ServerMessage, error)$/;"	n	interface:common.ServerMessage	typeref:typename:(ServerMessage, error)
+Read	encodings/enc-copy-rect.go	/^func (z *CopyRectEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common./;"	f	struct:encodings.CopyRectEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-corre.go	/^func (z *CoRREEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.Rfb/;"	f	struct:encodings.CoRREEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-cursor-pseudo.go	/^func (pe *EncCursorPseudo) Read(pf *common.PixelFormat, rect *common.Rectangle, r *common.RfbRea/;"	f	struct:encodings.EncCursorPseudo	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-hextile.go	/^func (z *HextileEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.R/;"	f	struct:encodings.HextileEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-led-state.go	/^func (pe *EncLedStatePseudo) Read(pf *common.PixelFormat, rect *common.Rectangle, r *common.RfbR/;"	f	struct:encodings.EncLedStatePseudo	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-pseudo.go	/^func (pe *PseudoEncoding) Read(*common.PixelFormat, *common.Rectangle, *common.RfbReadHelper) (c/;"	f	struct:encodings.PseudoEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-raw.go	/^func (*RawEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.RfbRead/;"	f	struct:encodings.RawEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-rre.go	/^func (z *RREEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.RfbRe/;"	f	struct:encodings.RREEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-tight.go	/^func (t *TightEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.Rfb/;"	f	struct:encodings.TightEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-tightpng.go	/^func (t *TightPngEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common./;"	f	struct:encodings.TightPngEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-zlib.go	/^func (z *ZLibEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.RfbR/;"	f	struct:encodings.ZLibEncoding	typeref:typename:(common.IEncoding, error)
+Read	encodings/enc-zrle.go	/^func (z *ZRLEEncoding) Read(pixelFmt *common.PixelFormat, rect *common.Rectangle, r *common.RfbR/;"	f	struct:encodings.ZRLEEncoding	typeref:typename:(common.IEncoding, error)
+Read	player/fbs-reader.go	/^func (fbs *FbsReader) Read(p []byte) (n int, err error) {$/;"	f	struct:player.FbsReader	typeref:typename:(n int, err error)
+Read	server/client-messages.go	/^func (*MsgClientCutText) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgClientCutText	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgClientQemuExtendedKey) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgClientQemuExtendedKey	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgFramebufferUpdateRequest) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgFramebufferUpdateRequest	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgKeyEvent) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgKeyEvent	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgPointerEvent) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgPointerEvent	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgQEMUExtKeyEvent) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgQEMUExtKeyEvent	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgSetEncodings) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgSetEncodings	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (*MsgSetPixelFormat) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgSetPixelFormat	typeref:typename:(common.ClientMessage, error)
+Read	server/client-messages.go	/^func (cf *MsgClientFence) Read(c io.Reader) (common.ClientMessage, error) {$/;"	f	struct:server.MsgClientFence	typeref:typename:(common.ClientMessage, error)
+Read	server/server-conn.go	/^func (c *ServerConn) Read(buf []byte) (int, error) {$/;"	f	struct:server.ServerConn	typeref:typename:(int, error)
+ReadBytes	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadBytes(count int) ([]byte, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:([]byte, error)
+ReadCompactLen	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadCompactLen() (int, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(int, error)
+ReadDiscrete	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadDiscrete(p []byte) (int, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(int, error)
+ReadFrom	server/handlers.go	/^func (t *TightCapability) ReadFrom(r io.Reader) error {$/;"	f	struct:server.TightCapability	typeref:typename:error
+ReadFrom	server/handlers.go	/^func (t *TightServerInit) ReadFrom(r io.Reader) error {$/;"	f	struct:server.TightServerInit	typeref:typename:error
+ReadSegment	player/fbs-reader.go	/^func (fbs *FbsReader) ReadSegment() (*FbsSegment, error) {$/;"	f	struct:player.FbsReader	typeref:typename:(*FbsSegment, error)
+ReadStartSession	player/fbs-play-listener.go	/^	ReadStartSession() (*common.ServerInit, error)$/;"	n	interface:player.VncStreamFileReader	typeref:typename:(*common.ServerInit, error)
+ReadStartSession	player/fbs-reader.go	/^func (fbs *FbsReader) ReadStartSession() (*common.ServerInit, error) {$/;"	f	struct:player.FbsReader	typeref:typename:(*common.ServerInit, error)
+ReadTightData	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadTightData(dataSize int) ([]byte, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:([]byte, error)
+ReadUint16	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadUint16() (uint16, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(uint16, error)
+ReadUint32	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadUint32() (uint32, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(uint32, error)
+ReadUint8	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) ReadUint8() (uint8, error) {$/;"	f	struct:common.RfbReadHelper	typeref:typename:(uint8, error)
+Reader	common/rfb-reader-helper.go	/^	io.Reader$/;"	M	struct:common.RfbReadHelper	typeref:typename:io.Reader
+Recorder	recorder/recorder.go	/^type Recorder struct {$/;"	s	package:recorder
+RecordingDir	proxy/proxy.go	/^	RecordingDir     string      \/\/ empty = no recording$/;"	m	struct:proxy.VncProxy	typeref:typename:string
+Rectangle	common/rectangle.go	/^type Rectangle struct {$/;"	s	package:common
+Rectangles	client/server-messages.go	/^	Rectangles []common.Rectangle$/;"	m	struct:client.MsgFramebufferUpdate	typeref:typename:[]common.Rectangle
+Rects	server/server.go	/^	Rects   []*common.Rectangle \/\/ rectangles$/;"	m	struct:server.FramebufferUpdate	typeref:typename:[]*common.Rectangle
+RedMax	common/encoding.go	/^	RedMax     uint16$/;"	m	struct:common.PixelFormat	typeref:typename:uint16
+RedShift	common/encoding.go	/^	RedShift   uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+RemoteAddr	client/client_auth_test.go	/^func (fc *fakeNetConnection) RemoteAddr() net.Addr               { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:net.Addr
+ReplayFilePath	proxy/vnc-session.go	/^	ReplayFilePath string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+RfbReadHelper	common/rfb-reader-helper.go	/^type RfbReadHelper struct {$/;"	s	package:common
+RfbRequester	recorder/rfb-requester.go	/^type RfbRequester struct {$/;"	s	package:recorder
+RfbSegment	common/rfb-reader-helper.go	/^type RfbSegment struct {$/;"	s	package:common
+Run	.idea/workspace.xml	/^      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCK/;"	i
+Scope	.idea/workspace.xml	/^      <pane id="Scope" \/>$/;"	i
+Scratches	.idea/workspace.xml	/^      <pane id="Scratches" \/>$/;"	i
+SecSubTypeUnknown	server/security.go	/^	SecSubTypeUnknown = SecuritySubType(0)$/;"	c	package:server
+SecSubTypeVeNCrypt01Plain	server/security.go	/^	SecSubTypeVeNCrypt01Plain     = SecuritySubType(19)$/;"	c	package:server
+SecSubTypeVeNCrypt01TLSNone	server/security.go	/^	SecSubTypeVeNCrypt01TLSNone   = SecuritySubType(20)$/;"	c	package:server
+SecSubTypeVeNCrypt01TLSPlain	server/security.go	/^	SecSubTypeVeNCrypt01TLSPlain  = SecuritySubType(22)$/;"	c	package:server
+SecSubTypeVeNCrypt01TLSVNC	server/security.go	/^	SecSubTypeVeNCrypt01TLSVNC    = SecuritySubType(21)$/;"	c	package:server
+SecSubTypeVeNCrypt01Unknown	server/security.go	/^	SecSubTypeVeNCrypt01Unknown   = SecuritySubType(0)$/;"	c	package:server
+SecSubTypeVeNCrypt01X509None	server/security.go	/^	SecSubTypeVeNCrypt01X509None  = SecuritySubType(23)$/;"	c	package:server
+SecSubTypeVeNCrypt01X509Plain	server/security.go	/^	SecSubTypeVeNCrypt01X509Plain = SecuritySubType(25)$/;"	c	package:server
+SecSubTypeVeNCrypt01X509VNC	server/security.go	/^	SecSubTypeVeNCrypt01X509VNC   = SecuritySubType(24)$/;"	c	package:server
+SecSubTypeVeNCrypt02Plain	server/security.go	/^	SecSubTypeVeNCrypt02Plain     = SecuritySubType(256)$/;"	c	package:server
+SecSubTypeVeNCrypt02TLSNone	server/security.go	/^	SecSubTypeVeNCrypt02TLSNone   = SecuritySubType(257)$/;"	c	package:server
+SecSubTypeVeNCrypt02TLSPlain	server/security.go	/^	SecSubTypeVeNCrypt02TLSPlain  = SecuritySubType(259)$/;"	c	package:server
+SecSubTypeVeNCrypt02TLSVNC	server/security.go	/^	SecSubTypeVeNCrypt02TLSVNC    = SecuritySubType(258)$/;"	c	package:server
+SecSubTypeVeNCrypt02Unknown	server/security.go	/^	SecSubTypeVeNCrypt02Unknown   = SecuritySubType(0)$/;"	c	package:server
+SecSubTypeVeNCrypt02X509None	server/security.go	/^	SecSubTypeVeNCrypt02X509None  = SecuritySubType(260)$/;"	c	package:server
+SecSubTypeVeNCrypt02X509Plain	server/security.go	/^	SecSubTypeVeNCrypt02X509Plain = SecuritySubType(262)$/;"	c	package:server
+SecSubTypeVeNCrypt02X509VNC	server/security.go	/^	SecSubTypeVeNCrypt02X509VNC   = SecuritySubType(261)$/;"	c	package:server
+SecTypeInvalid	recorder/recorder.go	/^	SecTypeInvalid = 0$/;"	c	package:recorder
+SecTypeNone	recorder/recorder.go	/^	SecTypeNone    = 1$/;"	c	package:recorder
+SecTypeNone	server/security.go	/^	SecTypeNone     = SecurityType(1)$/;"	c	package:server
+SecTypeTight	recorder/recorder.go	/^	SecTypeTight   = 16$/;"	c	package:recorder
+SecTypeUnknown	server/security.go	/^	SecTypeUnknown  = SecurityType(0)$/;"	c	package:server
+SecTypeVNC	server/security.go	/^	SecTypeVNC      = SecurityType(2)$/;"	c	package:server
+SecTypeVeNCrypt	server/security.go	/^	SecTypeVeNCrypt = SecurityType(19)$/;"	c	package:server
+SecTypeVncAuth	recorder/recorder.go	/^	SecTypeVncAuth = 2$/;"	c	package:recorder
+SecurityHandler	server/security.go	/^type SecurityHandler interface {$/;"	i	package:server
+SecurityHandlers	server/server.go	/^	SecurityHandlers []SecurityHandler$/;"	m	struct:server.ServerConfig	typeref:typename:[]SecurityHandler
+SecuritySubType	server/security.go	/^type SecuritySubType uint32$/;"	t	package:server	typeref:typename:uint32
+SecurityType	client/client-conn.go	/^	SecurityType() uint8$/;"	n	interface:client.ClientAuth	typeref:typename:uint8
+SecurityType	client/client_auth.go	/^func (*ClientAuthNone) SecurityType() uint8 {$/;"	f	type:client.ClientAuthNone	typeref:typename:uint8
+SecurityType	client/client_auth.go	/^func (p *PasswordAuth) SecurityType() uint8 {$/;"	f	struct:client.PasswordAuth	typeref:typename:uint8
+SecurityType	server/security.go	/^type SecurityType uint8$/;"	t	package:server	typeref:typename:uint8
+SegmentBytes	common/rfb-reader-helper.go	/^	SegmentBytes SegmentType = iota$/;"	c	package:common	typeref:typename:SegmentType
+SegmentConnectionClosed	common/rfb-reader-helper.go	/^	SegmentConnectionClosed$/;"	c	package:common
+SegmentConsumer	common/rfb-reader-helper.go	/^type SegmentConsumer interface {$/;"	i	package:common
+SegmentFullyParsedClientMessage	common/rfb-reader-helper.go	/^	SegmentFullyParsedClientMessage$/;"	c	package:common
+SegmentFullyParsedServerMessage	common/rfb-reader-helper.go	/^	SegmentFullyParsedServerMessage$/;"	c	package:common
+SegmentMessageEnd	common/rfb-reader-helper.go	/^	SegmentMessageEnd$/;"	c	package:common
+SegmentMessageStart	common/rfb-reader-helper.go	/^	SegmentMessageStart$/;"	c	package:common
+SegmentRectSeparator	common/rfb-reader-helper.go	/^	SegmentRectSeparator$/;"	c	package:common
+SegmentServerInitMessage	common/rfb-reader-helper.go	/^	SegmentServerInitMessage$/;"	c	package:common
+SegmentType	common/rfb-reader-helper.go	/^	SegmentType        SegmentType$/;"	m	struct:common.RfbSegment	typeref:typename:SegmentType
+SegmentType	common/rfb-reader-helper.go	/^type SegmentType int$/;"	t	package:common	typeref:typename:int
+SendMessageEnd	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) SendMessageEnd(messageType ServerMessageType) error {$/;"	f	struct:common.RfbReadHelper	typeref:typename:error
+SendMessageStart	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) SendMessageStart(upcomingMessageType ServerMessageType) error {$/;"	f	struct:common.RfbReadHelper	typeref:typename:error
+SendRectSeparator	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) SendRectSeparator(upcomingRectType int) error {$/;"	f	struct:common.RfbReadHelper	typeref:typename:error
+ServerAuthNone	server/security.go	/^type ServerAuthNone struct{}$/;"	s	package:server
+ServerAuthVNC	server/security.go	/^type ServerAuthVNC struct {$/;"	s	package:server
+ServerClientInitHandler	server/handlers.go	/^func ServerClientInitHandler(cfg *ServerConfig, c *ServerConn) error {$/;"	f	package:server	typeref:typename:error
+ServerConfig	server/server.go	/^type ServerConfig struct {$/;"	s	package:server
+ServerConn	server/server-conn.go	/^type ServerConn struct {$/;"	s	package:server
+ServerCutText	common/server-message-type.go	/^	ServerCutText$/;"	c	package:common
+ServerFence	common/server-message-type.go	/^	ServerFence = 248$/;"	c	package:common
+ServerHandler	server/server.go	/^type ServerHandler func(*ServerConfig, *ServerConn) error$/;"	t	package:server	typeref:typename:func(*ServerConfig, *ServerConn) error
+ServerInit	common/server-message-type.go	/^type ServerInit struct {$/;"	s	package:common
+ServerMessage	common/server-message-type.go	/^type ServerMessage interface {$/;"	i	package:common
+ServerMessageCaps	server/handlers.go	/^	ServerMessageCaps []TightCapability$/;"	m	struct:server.TightServerInit	typeref:typename:[]TightCapability
+ServerMessageType	common/server-message-type.go	/^type ServerMessageType int8$/;"	t	package:common	typeref:typename:int8
+ServerMessages	client/client-conn.go	/^	ServerMessages []common.ServerMessage$/;"	m	struct:client.ClientConfig	typeref:typename:[]common.ServerMessage
+ServerSecurityHandler	server/handlers.go	/^func ServerSecurityHandler(cfg *ServerConfig, c *ServerConn) error {$/;"	f	package:server	typeref:typename:error
+ServerServerInitHandler	server/handlers.go	/^func ServerServerInitHandler(cfg *ServerConfig, c *ServerConn) error {$/;"	f	package:server	typeref:typename:error
+ServerUpdater	proxy/message-listeners.go	/^type ServerUpdater struct {$/;"	s	package:proxy
+ServerVersionHandler	server/handlers.go	/^func ServerVersionHandler(cfg *ServerConfig, c *ServerConn) error {$/;"	f	package:server	typeref:typename:error
+SessionId	server/server-conn.go	/^	SessionId string$/;"	m	struct:server.ServerConn	typeref:typename:string
+SessionManager	proxy/session-manager.go	/^type SessionManager struct {$/;"	s	package:proxy
+SessionStatus	proxy/vnc-session.go	/^type SessionStatus int$/;"	t	package:proxy	typeref:typename:int
+SessionStatusActive	proxy/vnc-session.go	/^	SessionStatusActive$/;"	c	package:proxy
+SessionStatusError	proxy/vnc-session.go	/^	SessionStatusError$/;"	c	package:proxy
+SessionStatusInit	proxy/vnc-session.go	/^	SessionStatusInit SessionStatus = iota$/;"	c	package:proxy	typeref:type:SessionStatus
+SessionType	proxy/vnc-session.go	/^type SessionType int$/;"	t	package:proxy	typeref:typename:int
+SessionTypeProxyPass	proxy/vnc-session.go	/^	SessionTypeProxyPass$/;"	c	package:proxy
+SessionTypeRecordingProxy	proxy/vnc-session.go	/^	SessionTypeRecordingProxy SessionType = iota$/;"	c	package:proxy	typeref:type:SessionType
+SessionTypeReplayServer	proxy/vnc-session.go	/^	SessionTypeReplayServer$/;"	c	package:proxy
+SetColorMap	common/conn-interfaces.go	/^	SetColorMap(*ColorMap)$/;"	n	interface:common.IServerConn
+SetColorMap	server/server-conn.go	/^func (c *ServerConn) SetColorMap(cm *common.ColorMap) {$/;"	f	struct:server.ServerConn
+SetColourMapEntries	common/server-message-type.go	/^	SetColourMapEntries$/;"	c	package:common
+SetDeadline	client/client_auth_test.go	/^func (fc *fakeNetConnection) SetDeadline(t time.Time) error      { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:error
+SetDesktopName	common/conn-interfaces.go	/^	SetDesktopName(string)$/;"	n	interface:common.IServerConn
+SetDesktopName	server/server-conn.go	/^func (c *ServerConn) SetDesktopName(name string) {$/;"	f	struct:server.ServerConn
+SetEncodings	client/client-conn.go	/^func (c *ClientConn) SetEncodings(encs []common.IEncoding) error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+SetEncodings	common/conn-interfaces.go	/^	SetEncodings([]EncodingType) error$/;"	n	interface:common.IServerConn	typeref:typename:error
+SetEncodings	server/server-conn.go	/^func (c *ServerConn) SetEncodings(encs []common.EncodingType) error {$/;"	f	struct:server.ServerConn	typeref:typename:error
+SetEncodingsMsgType	common/client-message-type.go	/^	SetEncodingsMsgType$/;"	c	package:common
+SetHeight	common/conn-interfaces.go	/^	SetHeight(uint16)$/;"	n	interface:common.IServerConn
+SetHeight	server/server-conn.go	/^func (c *ServerConn) SetHeight(h uint16) {$/;"	f	struct:server.ServerConn
+SetLogLevel	logger/logger.go	/^func SetLogLevel(logLevel string) {$/;"	f	package:logger
+SetPixelFormat	client/client-conn.go	/^func (c *ClientConn) SetPixelFormat(format *common.PixelFormat) error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+SetPixelFormat	common/conn-interfaces.go	/^	SetPixelFormat(*PixelFormat) error$/;"	n	interface:common.IServerConn	typeref:typename:error
+SetPixelFormat	server/server-conn.go	/^func (c *ServerConn) SetPixelFormat(pf *common.PixelFormat) error {$/;"	f	struct:server.ServerConn	typeref:typename:error
+SetPixelFormatMsgType	common/client-message-type.go	/^	SetPixelFormatMsgType ClientMessageType = iota$/;"	c	package:common	typeref:type:ClientMessageType
+SetProtoVersion	common/conn-interfaces.go	/^	SetProtoVersion(string)$/;"	n	interface:common.IServerConn
+SetProtoVersion	server/server-conn.go	/^func (c *ServerConn) SetProtoVersion(pv string) {$/;"	f	struct:server.ServerConn
+SetReadDeadline	client/client_auth_test.go	/^func (fc *fakeNetConnection) SetReadDeadline(t time.Time) error  { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:error
+SetSession	proxy/session-manager.go	/^func (s *SessionManager) SetSession(sessionId string, session *VncSession) error {$/;"	f	struct:proxy.SessionManager	typeref:typename:error
+SetUint32	server/security.go	/^func SetUint32(buf []byte, pos int, val uint32) {$/;"	f	package:server
+SetWidth	common/conn-interfaces.go	/^	SetWidth(uint16)$/;"	n	interface:common.IServerConn
+SetWidth	server/server-conn.go	/^func (c *ServerConn) SetWidth(w uint16) {$/;"	f	struct:server.ServerConn
+SetWriteDeadline	client/client_auth_test.go	/^func (fc *fakeNetConnection) SetWriteDeadline(t time.Time) error { return nil }$/;"	f	struct:client.fakeNetConnection	typeref:typename:error
+SimpleLogger	logger/logger.go	/^type SimpleLogger struct {$/;"	s	package:logger
+SingleSession	proxy/proxy.go	/^	SingleSession    *VncSession \/\/ to be used when not using sessions$/;"	m	struct:proxy.VncProxy	typeref:typename:*VncSession
+StandardVendor	server/handlers.go	/^	StandardVendor  = "STDV"$/;"	c	package:server
+StartByteCollection	common/rfb-reader-helper.go	/^func (r *RfbReadHelper) StartByteCollection() {$/;"	f	struct:common.RfbReadHelper
+StartListening	proxy/proxy.go	/^func (vp *VncProxy) StartListening() {$/;"	f	struct:proxy.VncProxy
+Status	proxy/vnc-session.go	/^	Status         SessionStatus$/;"	m	struct:proxy.VncSession	typeref:typename:SessionStatus
+StoreBytes	encodings/enc-tight.go	/^func StoreBytes(bytes *bytes.Buffer, data []byte) {$/;"	f	package:encodings
+String	client/server-messages.go	/^func (m *MsgBell) String() string {$/;"	f	type:client.MsgBell	typeref:typename:string
+String	client/server-messages.go	/^func (m *MsgFramebufferUpdate) String() string {$/;"	f	struct:client.MsgFramebufferUpdate	typeref:typename:string
+String	client/server-messages.go	/^func (m *MsgServerCutText) String() string {$/;"	f	struct:client.MsgServerCutText	typeref:typename:string
+String	client/server-messages.go	/^func (m *MsgServerFence) String() string {$/;"	f	type:client.MsgServerFence	typeref:typename:string
+String	client/server-messages.go	/^func (m *MsgSetColorMapEntries) String() string {$/;"	f	struct:client.MsgSetColorMapEntries	typeref:typename:string
+String	common/client-message-type.go	/^func (cmt ClientMessageType) String() string {$/;"	f	type:common.ClientMessageType	typeref:typename:string
+String	common/encoding.go	/^func (enct EncodingType) String() string {$/;"	f	type:common.EncodingType	typeref:typename:string
+String	common/rectangle.go	/^func (r *Rectangle) String() string {$/;"	f	struct:common.Rectangle	typeref:typename:string
+String	common/rfb-reader-helper.go	/^func (seg SegmentType) String() string {$/;"	f	type:common.SegmentType	typeref:typename:string
+String	common/server-message-type.go	/^	String() string$/;"	n	interface:common.ServerMessage	typeref:typename:string
+String	common/server-message-type.go	/^func (typ ServerMessageType) String() string {$/;"	f	type:common.ServerMessageType	typeref:typename:string
+Structure	.idea/workspace.xml	/^      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="/;"	i
+SubType	server/client-messages.go	/^	SubType  uint8   \/\/ sub type$/;"	m	struct:server.MsgClientQemuExtendedKey	typeref:typename:uint8
+SubType	server/security.go	/^	SubType() SecuritySubType$/;"	n	interface:server.SecurityHandler	typeref:typename:SecuritySubType
+SubType	server/security.go	/^func (*ServerAuthNone) SubType() SecuritySubType {$/;"	f	struct:server.ServerAuthNone	typeref:typename:SecuritySubType
+SubType	server/security.go	/^func (*ServerAuthVNC) SubType() SecuritySubType {$/;"	f	struct:server.ServerAuthVNC	typeref:typename:SecuritySubType
+SubmessageType	server/client-messages.go	/^	SubmessageType uint8  \/\/ submessage type$/;"	m	struct:server.MsgQEMUExtKeyEvent	typeref:typename:uint8
+TCPListeningURL	proxy/proxy.go	/^	TCPListeningURL  string      \/\/ empty = not listening on tcp$/;"	m	struct:proxy.VncProxy	typeref:typename:string
+TODO	.idea/workspace.xml	/^      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOC/;"	i
+TODO:	todo.md	/^# TODO:$/;"	c
+Target	proxy/vnc-session.go	/^	Target         string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+TargetHostname	proxy/vnc-session.go	/^	TargetHostname string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+TargetPassword	proxy/vnc-session.go	/^	TargetPassword string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+TargetPort	proxy/vnc-session.go	/^	TargetPort     string$/;"	m	struct:proxy.VncSession	typeref:typename:string
+TcpServe	server/server.go	/^func TcpServe(url string, cfg *ServerConfig) error {$/;"	f	package:server	typeref:typename:error
+Terminal	.idea/workspace.xml	/^      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type=/;"	i
+Test	client/client_auth_test.go	/^	Test       *testing.T$/;"	m	struct:client.fakeNetConnection	typeref:typename:*testing.T
+TestClientAuthNone_Impl	client/client_auth_test.go	/^func TestClientAuthNone_Impl(t *testing.T) {$/;"	f	package:client
+TestClientAuthPasswordReject_Impl	client/client_auth_test.go	/^func TestClientAuthPasswordReject_Impl(t *testing.T) {$/;"	f	package:client
+TestClientAuthPasswordSuccess_Impl	client/client_auth_test.go	/^func TestClientAuthPasswordSuccess_Impl(t *testing.T) {$/;"	f	package:client
+TestParseProtocolVersion	client/client_test.go	/^func TestParseProtocolVersion(t *testing.T) {$/;"	f	package:client
+TestProxy	proxy/proxy_test.go	/^func TestProxy(t *testing.T) {$/;"	f	package:proxy
+TestServer	player/player_test.go	/^func TestServer(t *testing.T) {$/;"	f	package:player
+TestServer	server/server_test.go	/^func TestServer(t *testing.T) {$/;"	f	package:server
+Text	client/server-messages.go	/^	Text string$/;"	m	struct:client.MsgServerCutText	typeref:typename:string
+Text	server/client-messages.go	/^	Text   []byte$/;"	m	struct:server.MsgClientCutText	typeref:typename:[]byte
+Theme Preview	.idea/workspace.xml	/^      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_t/;"	i
+TightCapability	server/handlers.go	/^type TightCapability struct {$/;"	s	package:server
+TightEncoding	encodings/enc-tight.go	/^type TightEncoding struct {$/;"	s	package:encodings
+TightExplicitFilter	encodings/enc-tight.go	/^	TightExplicitFilter = 0x04$/;"	c	package:encodings
+TightFill	encodings/enc-tight.go	/^	TightFill           = 0x08$/;"	c	package:encodings
+TightFilterCopy	encodings/enc-tight.go	/^	TightFilterCopy     = 0x00$/;"	c	package:encodings
+TightFilterGradient	encodings/enc-tight.go	/^	TightFilterGradient = 0x02$/;"	c	package:encodings
+TightFilterPalette	encodings/enc-tight.go	/^	TightFilterPalette  = 0x01$/;"	c	package:encodings
+TightJpeg	encodings/enc-tight.go	/^	TightJpeg           = 0x09$/;"	c	package:encodings
+TightMinToCompress	common/rfb-reader-helper.go	/^var TightMinToCompress = 12$/;"	v	package:common
+TightMinToCompress	encodings/enc-tight.go	/^var TightMinToCompress int = 12$/;"	v	package:encodings	typeref:typename:int
+TightPNG	encodings/enc-tight.go	/^	TightPNG            = 0x10$/;"	c	package:encodings
+TightPngEncoding	encodings/enc-tightpng.go	/^type TightPngEncoding struct {$/;"	s	package:encodings
+TightServerInit	server/handlers.go	/^type TightServerInit struct {$/;"	s	package:server
+TightVncVendor	server/handlers.go	/^	TightVncVendor  = "TGHT"$/;"	c	package:server
+Trace	logger/logger.go	/^func (sl *SimpleLogger) Trace(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Trace	logger/logger.go	/^func Trace(v ...interface{}) {$/;"	f	package:logger
+Tracef	logger/logger.go	/^func (sl *SimpleLogger) Tracef(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Tracef	logger/logger.go	/^func Tracef(format string, v ...interface{}) {$/;"	f	package:logger
+TridiaVncVendor	server/handlers.go	/^	TridiaVncVendor = "TRDV"$/;"	c	package:server
+TrueColor	common/encoding.go	/^	TrueColor  uint8$/;"	m	struct:common.PixelFormat	typeref:typename:uint8
+Typ	encodings/enc-pseudo.go	/^	Typ int32$/;"	m	struct:encodings.PseudoEncoding	typeref:typename:int32
+Type	client/server-messages.go	/^func (*MsgBell) Type() uint8 {$/;"	f	type:client.MsgBell	typeref:typename:uint8
+Type	client/server-messages.go	/^func (*MsgFramebufferUpdate) Type() uint8 {$/;"	f	struct:client.MsgFramebufferUpdate	typeref:typename:uint8
+Type	client/server-messages.go	/^func (*MsgServerCutText) Type() uint8 {$/;"	f	struct:client.MsgServerCutText	typeref:typename:uint8
+Type	client/server-messages.go	/^func (*MsgServerFence) Type() uint8 {$/;"	f	type:client.MsgServerFence	typeref:typename:uint8
+Type	client/server-messages.go	/^func (*MsgSetColorMapEntries) Type() uint8 {$/;"	f	struct:client.MsgSetColorMapEntries	typeref:typename:uint8
+Type	common/client-message-type.go	/^	Type() ClientMessageType$/;"	n	interface:common.ClientMessage	typeref:typename:ClientMessageType
+Type	common/encoding.go	/^	Type() int32$/;"	n	interface:common.IEncoding	typeref:typename:int32
+Type	common/server-message-type.go	/^	Type() uint8$/;"	n	interface:common.ServerMessage	typeref:typename:uint8
+Type	encodings/enc-copy-rect.go	/^func (z *CopyRectEncoding) Type() int32 {$/;"	f	struct:encodings.CopyRectEncoding	typeref:typename:int32
+Type	encodings/enc-corre.go	/^func (z *CoRREEncoding) Type() int32 {$/;"	f	struct:encodings.CoRREEncoding	typeref:typename:int32
+Type	encodings/enc-cursor-pseudo.go	/^func (pe *EncCursorPseudo) Type() int32 {$/;"	f	struct:encodings.EncCursorPseudo	typeref:typename:int32
+Type	encodings/enc-hextile.go	/^func (z *HextileEncoding) Type() int32 {$/;"	f	struct:encodings.HextileEncoding	typeref:typename:int32
+Type	encodings/enc-led-state.go	/^func (pe *EncLedStatePseudo) Type() int32 {$/;"	f	struct:encodings.EncLedStatePseudo	typeref:typename:int32
+Type	encodings/enc-pseudo.go	/^func (pe *PseudoEncoding) Type() int32 {$/;"	f	struct:encodings.PseudoEncoding	typeref:typename:int32
+Type	encodings/enc-raw.go	/^func (*RawEncoding) Type() int32 {$/;"	f	struct:encodings.RawEncoding	typeref:typename:int32
+Type	encodings/enc-rre.go	/^func (z *RREEncoding) Type() int32 {$/;"	f	struct:encodings.RREEncoding	typeref:typename:int32
+Type	encodings/enc-tight.go	/^func (*TightEncoding) Type() int32 { return int32(common.EncTight) }$/;"	f	struct:encodings.TightEncoding	typeref:typename:int32
+Type	encodings/enc-tightpng.go	/^func (*TightPngEncoding) Type() int32 { return int32(common.EncTightPng) }$/;"	f	struct:encodings.TightPngEncoding	typeref:typename:int32
+Type	encodings/enc-zlib.go	/^func (z *ZLibEncoding) Type() int32 {$/;"	f	struct:encodings.ZLibEncoding	typeref:typename:int32
+Type	encodings/enc-zrle.go	/^func (z *ZRLEEncoding) Type() int32 {$/;"	f	struct:encodings.ZRLEEncoding	typeref:typename:int32
+Type	proxy/vnc-session.go	/^	Type           SessionType$/;"	m	struct:proxy.VncSession	typeref:typename:SessionType
+Type	server/client-messages.go	/^func (*MsgClientCutText) Type() common.ClientMessageType {$/;"	f	struct:server.MsgClientCutText	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgClientFence) Type() common.ClientMessageType {$/;"	f	struct:server.MsgClientFence	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgClientQemuExtendedKey) Type() common.ClientMessageType {$/;"	f	struct:server.MsgClientQemuExtendedKey	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgFramebufferUpdateRequest) Type() common.ClientMessageType {$/;"	f	struct:server.MsgFramebufferUpdateRequest	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgKeyEvent) Type() common.ClientMessageType {$/;"	f	struct:server.MsgKeyEvent	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgPointerEvent) Type() common.ClientMessageType {$/;"	f	struct:server.MsgPointerEvent	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgQEMUExtKeyEvent) Type() common.ClientMessageType {$/;"	f	struct:server.MsgQEMUExtKeyEvent	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgSetEncodings) Type() common.ClientMessageType {$/;"	f	struct:server.MsgSetEncodings	typeref:typename:common.ClientMessageType
+Type	server/client-messages.go	/^func (*MsgSetPixelFormat) Type() common.ClientMessageType {$/;"	f	struct:server.MsgSetPixelFormat	typeref:typename:common.ClientMessageType
+Type	server/security.go	/^	Type() SecurityType$/;"	n	interface:server.SecurityHandler	typeref:typename:SecurityType
+Type	server/security.go	/^func (*ServerAuthNone) Type() SecurityType {$/;"	f	struct:server.ServerAuthNone	typeref:typename:SecurityType
+Type	server/security.go	/^func (*ServerAuthVNC) Type() SecurityType {$/;"	f	struct:server.ServerAuthVNC	typeref:typename:SecurityType
+UI Designer	.idea/workspace.xml	/^      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type/;"	i
+UpcomingObjectType	common/rfb-reader-helper.go	/^	UpcomingObjectType int$/;"	m	struct:common.RfbSegment	typeref:typename:int
+Usage:	README.md	/^## Usage:$/;"	s	chapter:VncProxy [![CircleCI](https://circleci.com/gh/amitbet/vncproxy/tree/master.svg?style=shield)](https://circleci.com/gh/amitbet/vncproxy/tree/master) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)
+UseDummySession	server/server.go	/^	UseDummySession  bool$/;"	m	struct:server.ServerConfig	typeref:typename:bool
+UsingSessions	proxy/proxy.go	/^	UsingSessions    bool        \/\/false = single session - defined in the var above$/;"	m	struct:proxy.VncProxy	typeref:typename:bool
+Version Control	.idea/workspace.xml	/^      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal/;"	i
+VncProxy	proxy/proxy.go	/^type VncProxy struct {$/;"	s	package:proxy
+VncProxy [![CircleCI](https://circleci.com/gh/amitbet/vncproxy/tree/master.svg?style=shield)](https://circleci.com/gh/amitbet/vncproxy/tree/master) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CircleCI-Public/circleci-demo-go/master/LICENSE.md)	README.md	/^# VncProxy [![CircleCI](https:\/\/circleci.com\/gh\/amitbet\/vncproxy\/tree\/master.svg?style=sh/;"	c
+VncSession	proxy/vnc-session.go	/^type VncSession struct {$/;"	s	package:proxy
+VncStreamFileReader	player/fbs-play-listener.go	/^type VncStreamFileReader interface {$/;"	i	package:player
+Warn	logger/logger.go	/^	Warn(v ...interface{})$/;"	n	interface:logger.Logger
+Warn	logger/logger.go	/^func (sl *SimpleLogger) Warn(v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Warn	logger/logger.go	/^func Warn(v ...interface{}) {$/;"	f	package:logger
+Warnf	logger/logger.go	/^	Warnf(format string, v ...interface{})$/;"	n	interface:logger.Logger
+Warnf	logger/logger.go	/^func (sl *SimpleLogger) Warnf(format string, v ...interface{}) {$/;"	f	struct:logger.SimpleLogger
+Warnf	logger/logger.go	/^func Warnf(format string, v ...interface{}) {$/;"	f	package:logger
+Width	common/conn-interfaces.go	/^	Width() uint16$/;"	n	interface:common.IServerConn	typeref:typename:uint16
+Width	common/rectangle.go	/^	Width  uint16$/;"	m	struct:common.Rectangle	typeref:typename:uint16
+Width	recorder/rfb-requester.go	/^	Width           uint16$/;"	m	struct:recorder.RfbRequester	typeref:typename:uint16
+Width	server/client-messages.go	/^	Width, Height uint16 \/\/ width, height$/;"	m	struct:server.MsgFramebufferUpdateRequest	typeref:typename:uint16
+Width	server/server-conn.go	/^func (c *ServerConn) Width() uint16 {$/;"	f	struct:server.ServerConn	typeref:typename:uint16
+Width	server/server.go	/^	Width            uint16$/;"	m	struct:server.ServerConfig	typeref:typename:uint16
+Write	client/client-conn.go	/^func (c *ClientConn) Write(bytes []byte) (n int, err error) {$/;"	f	struct:client.ClientConn	typeref:typename:(n int, err error)
+Write	client/client_auth_test.go	/^func (fc *fakeNetConnection) Write(b []byte) (n int, err error) {$/;"	f	struct:client.fakeNetConnection	typeref:typename:(n int, err error)
+Write	common/client-message-type.go	/^	Write(io.Writer) error$/;"	n	interface:common.ClientMessage	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgClientCutText) Write(c io.Writer) error {$/;"	f	struct:server.MsgClientCutText	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgClientFence) Write(c io.Writer) error {$/;"	f	struct:server.MsgClientFence	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgClientQemuExtendedKey) Write(c io.Writer) error {$/;"	f	struct:server.MsgClientQemuExtendedKey	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgFramebufferUpdateRequest) Write(c io.Writer) error {$/;"	f	struct:server.MsgFramebufferUpdateRequest	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgKeyEvent) Write(c io.Writer) error {$/;"	f	struct:server.MsgKeyEvent	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgPointerEvent) Write(c io.Writer) error {$/;"	f	struct:server.MsgPointerEvent	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgQEMUExtKeyEvent) Write(c io.Writer) error {$/;"	f	struct:server.MsgQEMUExtKeyEvent	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgSetEncodings) Write(c io.Writer) error {$/;"	f	struct:server.MsgSetEncodings	typeref:typename:error
+Write	server/client-messages.go	/^func (msg *MsgSetPixelFormat) Write(c io.Writer) error {$/;"	f	struct:server.MsgSetPixelFormat	typeref:typename:error
+Write	server/server-conn.go	/^func (c *ServerConn) Write(buf []byte) (int, error) {$/;"	f	struct:server.ServerConn	typeref:typename:(int, error)
+WriteTo	client/write-to.go	/^type WriteTo struct {$/;"	s	package:client
+WriteTo	common/encoding.go	/^	WriteTo(w io.Writer) (n int, err error)$/;"	n	interface:common.IEncoding	typeref:typename:(n int, err error)
+WriteTo	common/encoding.go	/^func (format *PixelFormat) WriteTo(w io.Writer) error {$/;"	f	struct:common.PixelFormat	typeref:typename:error
+WriteTo	encodings/enc-copy-rect.go	/^func (z *CopyRectEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.CopyRectEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-corre.go	/^func (z *CoRREEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.CoRREEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-cursor-pseudo.go	/^func (z *EncCursorPseudo) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.EncCursorPseudo	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-hextile.go	/^func (z *HextileEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.HextileEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-led-state.go	/^func (pe *EncLedStatePseudo) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.EncLedStatePseudo	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-pseudo.go	/^func (z *PseudoEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.PseudoEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-raw.go	/^func (z *RawEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.RawEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-rre.go	/^func (z *RREEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.RREEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-tight.go	/^func (z *TightEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.TightEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-tightpng.go	/^func (z *TightPngEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.TightPngEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-zlib.go	/^func (z *ZLibEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.ZLibEncoding	typeref:typename:(n int, err error)
+WriteTo	encodings/enc-zrle.go	/^func (z *ZRLEEncoding) WriteTo(w io.Writer) (n int, err error) {$/;"	f	struct:encodings.ZRLEEncoding	typeref:typename:(n int, err error)
+WriteTo	server/handlers.go	/^func (t *TightCapability) WriteTo(w io.Writer) error {$/;"	f	struct:server.TightCapability	typeref:typename:error
+WriteTo	server/handlers.go	/^func (t *TightServerInit) WriteTo(w io.Writer) error {$/;"	f	struct:server.TightServerInit	typeref:typename:error
+Writer	client/write-to.go	/^	Writer io.Writer$/;"	m	struct:client.WriteTo	typeref:typename:io.Writer
+WsHandler	server/ws-server-go.go	/^type WsHandler func(io.ReadWriter, *ServerConfig, string)$/;"	t	package:server	typeref:typename:func(io.ReadWriter, *ServerConfig, string)
+WsListeningURL	proxy/proxy.go	/^	WsListeningURL   string      \/\/ empty = not listening on ws$/;"	m	struct:proxy.VncProxy	typeref:typename:string
+WsServe	server/server.go	/^func WsServe(url string, cfg *ServerConfig) error {$/;"	f	package:server	typeref:typename:error
+WsServer	server/ws-server-go.go	/^type WsServer struct {$/;"	s	package:server
+X	common/rectangle.go	/^	X      uint16$/;"	m	struct:common.Rectangle	typeref:typename:uint16
+X	server/client-messages.go	/^	X, Y          uint16 \/\/ x-, y-position$/;"	m	struct:server.MsgFramebufferUpdateRequest	typeref:typename:uint16
+X	server/client-messages.go	/^	X, Y uint16 \/\/ x-, y-position$/;"	m	struct:server.MsgPointerEvent	typeref:typename:uint16
+Y	common/rectangle.go	/^	Y      uint16$/;"	m	struct:common.Rectangle	typeref:typename:uint16
+Y	server/client-messages.go	/^	X, Y          uint16 \/\/ x-, y-position$/;"	m	struct:server.MsgFramebufferUpdateRequest	typeref:typename:uint16
+Y	server/client-messages.go	/^	X, Y uint16 \/\/ x-, y-position$/;"	m	struct:server.MsgPointerEvent	typeref:typename:uint16
+ZLibEncoding	encodings/enc-zlib.go	/^type ZLibEncoding struct {$/;"	s	package:encodings
+ZRLEEncoding	encodings/enc-zrle.go	/^type ZRLEEncoding struct {$/;"	s	package:encodings
+_	common/client-message-type.go	/^	_$/;"	c	package:common
+_	server/client-messages.go	/^	_         [1]byte \/\/ padding$/;"	m	struct:server.MsgSetEncodings	typeref:typename:[1]byte
+_	server/client-messages.go	/^	_      [3]byte \/\/ padding$/;"	m	struct:server.MsgClientCutText	typeref:typename:[3]byte
+_	server/client-messages.go	/^	_    [2]byte \/\/ padding$/;"	m	struct:server.MsgKeyEvent	typeref:typename:[2]byte
+_	server/client-messages.go	/^	_  [3]byte            \/\/ padding after pixel format$/;"	m	struct:server.MsgSetPixelFormat	typeref:typename:[3]byte
+_	server/client-messages.go	/^	_  [3]byte            \/\/ padding$/;"	m	struct:server.MsgSetPixelFormat	typeref:typename:[3]byte
+_	server/server.go	/^	_       [1]byte             \/\/ padding$/;"	m	struct:server.FramebufferUpdate	typeref:typename:[1]byte
+a5d84862-9821-4d30-9a77-6235b55d6727	.idea/workspace.xml	/^      <changelist id="a5d84862-9821-4d30-9a77-6235b55d6727" name="Default" comment="" \/>$/;"	i
+a5d84862-9821-4d30-9a77-6235b55d6727	.idea/workspace.xml	/^    <list default="true" id="a5d84862-9821-4d30-9a77-6235b55d6727" name="Default" comment="">$/;"	i
+all	.idea/workspace.xml	/^    <todo-panel id="all">$/;"	i
+args	.vscode/launch.json	/^            "args": ["-recDir","\/Users\/amitbet\/vncRec\/recording.rbs", "-targPort","5903","-t/;"	a	object:configurations.2
+args	.vscode/launch.json	/^            "args": [$/;"	a	object:configurations.0
+args	.vscode/launch.json	/^            "args": [$/;"	a	object:configurations.1
+args	.vscode/launch.json	/^            "args": [$/;"	a	object:configurations.3
+args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+args	.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.1
+attachNewServerConn	server/server.go	/^func attachNewServerConn(c io.ReadWriter, cfg *ServerConfig, sessionId string) error {$/;"	f	package:server	typeref:typename:error
+backgroundColor	encodings/enc-corre.go	/^	backgroundColor []byte$/;"	m	struct:encodings.CoRREEncoding	typeref:typename:[]byte
+backgroundColor	encodings/enc-rre.go	/^	backgroundColor []byte$/;"	m	struct:encodings.RREEncoding	typeref:typename:[]byte
+buffer	player/fbs-reader.go	/^	buffer           bytes.Buffer$/;"	m	struct:player.FbsReader	typeref:typename:bytes.Buffer
+buffer	recorder/recorder.go	/^	buffer              bytes.Buffer$/;"	m	struct:recorder.Recorder	typeref:typename:bytes.Buffer
+bytes	encodings/enc-hextile.go	/^	bytes []byte$/;"	m	struct:encodings.HextileEncoding	typeref:typename:[]byte
+bytes	encodings/enc-raw.go	/^	bytes []byte$/;"	m	struct:encodings.RawEncoding	typeref:typename:[]byte
+bytes	encodings/enc-tight.go	/^	bytes []byte$/;"	m	struct:encodings.TightEncoding	typeref:typename:[]byte
+bytes	encodings/enc-tightpng.go	/^	bytes []byte$/;"	m	struct:encodings.TightPngEncoding	typeref:typename:[]byte
+bytes	encodings/enc-zlib.go	/^	bytes []byte$/;"	m	struct:encodings.ZLibEncoding	typeref:typename:[]byte
+bytes	encodings/enc-zrle.go	/^	bytes []byte$/;"	m	struct:encodings.ZRLEEncoding	typeref:typename:[]byte
+bytes	player/fbs-reader.go	/^	bytes     []byte$/;"	m	struct:player.FbsSegment	typeref:typename:[]byte
+c	server/server-conn.go	/^	c   io.ReadWriter$/;"	m	struct:server.ServerConn	typeref:typename:io.ReadWriter
+calcTightBytePerPixel	encodings/enc-tight.go	/^func calcTightBytePerPixel(pf *common.PixelFormat) int {$/;"	f	package:encodings	typeref:typename:int
+cfg	server/server-conn.go	/^	cfg *ServerConfig$/;"	m	struct:server.ServerConn	typeref:typename:*ServerConfig
+cfg	server/ws-server-go.go	/^	cfg *ServerConfig$/;"	m	struct:server.WsServer	typeref:typename:*ServerConfig
+client	client/client-conn.go	/^package client$/;"	p
+client	client/client_auth.go	/^package client$/;"	p
+client	client/client_auth_test.go	/^package client$/;"	p
+client	client/client_test.go	/^package client$/;"	p
+client	client/pixel-format.go	/^package client$/;"	p
+client	client/pointer.go	/^package client$/;"	p
+client	client/server-messages.go	/^package client$/;"	p
+client	client/write-to.go	/^package client$/;"	p
+cm	common/client-message-type.go	/^	cm      *ColorMap$/;"	m	struct:common.Color	typeref:typename:*ColorMap
+cmIndex	common/client-message-type.go	/^	cmIndex uint32 \/\/ Only valid if pf.TrueColor is false.$/;"	m	struct:common.Color	typeref:typename:uint32
+code	server/handlers.go	/^	code   uint32$/;"	m	struct:server.TightCapability	typeref:typename:uint32
+colorMap	server/server-conn.go	/^	colorMap *common.ColorMap$/;"	m	struct:server.ServerConn	typeref:typename:*common.ColorMap
+command	.vscode/tasks.json	/^    "command": "go",$/;"	s
+common	common/client-message-type.go	/^package common$/;"	p
+common	common/conn-interfaces.go	/^package common$/;"	p
+common	common/encoding.go	/^package common$/;"	p
+common	common/multi-listener.go	/^package common$/;"	p
+common	common/rectangle.go	/^package common$/;"	p
+common	common/rfb-reader-helper.go	/^package common$/;"	p
+common	common/server-message-type.go	/^package common$/;"	p
+config	client/client-conn.go	/^	config *ClientConfig$/;"	m	struct:client.ClientConn	typeref:typename:*ClientConfig
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+conn	client/client-conn.go	/^	conn io.ReadWriteCloser$/;"	m	struct:client.ClientConn	typeref:typename:io.ReadWriteCloser
+conn	proxy/message-listeners.go	/^	conn *client.ClientConn$/;"	m	struct:proxy.ClientUpdater	typeref:typename:*client.ClientConn
+conn	proxy/message-listeners.go	/^	conn *server.ServerConn$/;"	m	struct:proxy.ServerUpdater	typeref:typename:*server.ServerConn
+copyRectSrcX	encodings/enc-copy-rect.go	/^	copyRectSrcX uint16$/;"	m	struct:encodings.CopyRectEncoding	typeref:typename:uint16
+copyRectSrcY	encodings/enc-copy-rect.go	/^	copyRectSrcY uint16$/;"	m	struct:encodings.CopyRectEncoding	typeref:typename:uint16
+createClientConnection	proxy/proxy.go	/^func (vp *VncProxy) createClientConnection(target string, vncPass string) (*client.ClientConn, e/;"	f	struct:proxy.VncProxy	typeref:typename:(*client.ClientConn, error)
+currentTimestamp	player/fbs-reader.go	/^	currentTimestamp int$/;"	m	struct:player.FbsReader	typeref:typename:int
+desktopName	server/server-conn.go	/^	desktopName string$/;"	m	struct:server.ServerConn	typeref:typename:string
+echoCommand	.vscode/tasks.json	/^    "echoCommand": true,$/;"	b
+encodings	encodings/enc-copy-rect.go	/^package encodings$/;"	p
+encodings	encodings/enc-corre.go	/^package encodings$/;"	p
+encodings	encodings/enc-cursor-pseudo.go	/^package encodings$/;"	p
+encodings	encodings/enc-hextile.go	/^package encodings$/;"	p
+encodings	encodings/enc-led-state.go	/^package encodings$/;"	p
+encodings	encodings/enc-pseudo.go	/^package encodings$/;"	p
+encodings	encodings/enc-raw.go	/^package encodings$/;"	p
+encodings	encodings/enc-rre.go	/^package encodings$/;"	p
+encodings	encodings/enc-tight.go	/^package encodings$/;"	p
+encodings	encodings/enc-tightpng.go	/^package encodings$/;"	p
+encodings	encodings/enc-zlib.go	/^package encodings$/;"	p
+encodings	encodings/enc-zrle.go	/^package encodings$/;"	p
+encodings	player/fbs-reader.go	/^	encodings        []common.IEncoding$/;"	m	struct:player.FbsReader	typeref:typename:[]common.IEncoding
+encodings	server/server-conn.go	/^	encodings []common.IEncoding$/;"	m	struct:server.ServerConn	typeref:typename:[]common.IEncoding
+encrypt	client/client_auth.go	/^func (p *PasswordAuth) encrypt(key string, bytes []byte) ([]byte, error) {$/;"	f	struct:client.PasswordAuth	typeref:typename:([]byte, error)
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.0.osx
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.0.windows
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.1.osx
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.1.windows
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.2.osx
+env	.vscode/launch.json	/^                "env": {$/;"	o	object:configurations.2.windows
+env	.vscode/tasks.json	/^                    "env": {$/;"	o	object:tasks.0.osx.options
+env	.vscode/tasks.json	/^                    "env": {$/;"	o	object:tasks.0.windows.options
+fakeNetConnection	client/client_auth_test.go	/^type fakeNetConnection struct {$/;"	s	package:client
+fbHeight	server/server-conn.go	/^	fbHeight uint16$/;"	m	struct:server.ServerConn	typeref:typename:uint16
+fbWidth	server/server-conn.go	/^	fbWidth uint16$/;"	m	struct:server.ServerConn	typeref:typename:uint16
+firstSegDone	player/fbs-play-listener.go	/^	firstSegDone     bool$/;"	m	struct:player.FBSPlayListener	typeref:typename:bool
+fixDesKey	server/security.go	/^func fixDesKey(key string) []byte {$/;"	f	package:server	typeref:typename:[]byte
+fixDesKeyByte	server/security.go	/^func fixDesKeyByte(val byte) byte {$/;"	f	package:server	typeref:typename:byte
+getNowMillisec	recorder/cmd/main.go	/^func getNowMillisec() int {$/;"	f	package:main	typeref:typename:int
+getNowMillisec	recorder/recorder.go	/^func getNowMillisec() int {$/;"	f	package:recorder	typeref:typename:int
+getProxySession	proxy/proxy.go	/^func (vp *VncProxy) getProxySession(sessionId string) (*VncSession, error) {$/;"	f	struct:proxy.VncProxy	typeref:typename:(*VncSession, error)
+handle	server/server-conn.go	/^func (c *ServerConn) handle() error {$/;"	f	struct:server.ServerConn	typeref:typename:error
+handleTightFilters	encodings/enc-tight.go	/^func handleTightFilters(subencoding uint8, pixelFmt *common.PixelFormat, rect *common.Rectangle,/;"	f	package:encodings
+handshake	client/client-conn.go	/^func (c *ClientConn) handshake() error {$/;"	f	struct:client.ClientConn	typeref:typename:error
+host	.vscode/launch.json	/^            "host": "127.0.0.1",$/;"	s	object:configurations.2
+idea.log	.idea/workspace.xml	/^      <predefined_log_file id="idea.log" enabled="true" \/>$/;"	i
+isBuildCommand	.vscode/tasks.json	/^            "isBuildCommand": true,$/;"	b	object:tasks.0
+isShellCommand	.vscode/tasks.json	/^    "isShellCommand": true,$/;"	b
+isTestCommand	.vscode/tasks.json	/^            "isTestCommand": true$/;"	b	object:tasks.1
+lastRequestTime	recorder/rfb-requester.go	/^	lastRequestTime time.Time$/;"	m	struct:recorder.RfbRequester	typeref:typename:time.Time
+level	logger/logger.go	/^	level LogLevel$/;"	m	struct:logger.SimpleLogger	typeref:typename:LogLevel
+listeners	common/multi-listener.go	/^	listeners []SegmentConsumer$/;"	m	struct:common.MultiListener	typeref:typename:[]SegmentConsumer
+listeners	proxy/proxy.go	/^	listeners "github.com\/amitbet\/vncproxy\/recorder"$/;"	P	package:github.com/amitbet/vncproxy/recorder
+logger	logger/logger.go	/^package logger$/;"	p
+m	server/server-conn.go	/^	m        sync.Mutex$/;"	m	struct:server.ServerConn	typeref:typename:sync.Mutex
+main	player/cmd/main.go	/^func main() {$/;"	f	package:main
+main	player/cmd/main.go	/^package main$/;"	p
+main	proxy/cmd/main.go	/^func main() {$/;"	f	package:main
+main	proxy/cmd/main.go	/^package main$/;"	p
+main	recorder/cmd/main.go	/^func main() {$/;"	f	package:main
+main	recorder/cmd/main.go	/^package main$/;"	p
+mainLoop	client/client-conn.go	/^func (c *ClientConn) mainLoop() {$/;"	f	struct:client.ClientConn
+maxWriteSize	recorder/recorder.go	/^	maxWriteSize        int$/;"	m	struct:recorder.Recorder	typeref:typename:int
+mode	.vscode/launch.json	/^            "mode": "debug",$/;"	s	object:configurations.2
+mode	.vscode/launch.json	/^            "mode": "test",$/;"	s	object:configurations.0
+mode	.vscode/launch.json	/^            "mode": "test",$/;"	s	object:configurations.1
+mode	.vscode/launch.json	/^            "mode": "test",$/;"	s	object:configurations.3
+name	.vscode/launch.json	/^            "name": "Launch Proxy Test",$/;"	s	object:configurations.1
+name	.vscode/launch.json	/^            "name": "Launch Recorder",$/;"	s	object:configurations.2
+name	.vscode/launch.json	/^            "name": "Launch Server Test",$/;"	s	object:configurations.0
+name	.vscode/launch.json	/^            "name": "Launch fbs player",$/;"	s	object:configurations.3
+name	server/handlers.go	/^	name   [8]byte$/;"	m	struct:server.TightCapability	typeref:typename:[8]byte
+newMockServer	client/client_test.go	/^func newMockServer(t *testing.T, version string) string {$/;"	f	package:client	typeref:typename:string
+newServerConnHandler	proxy/proxy.go	/^func (vp *VncProxy) newServerConnHandler(cfg *server.ServerConfig, sconn *server.ServerConn) err/;"	f	struct:proxy.VncProxy	typeref:typename:error
+newServerConnHandler	server/server_test.go	/^func newServerConnHandler(cfg *ServerConfig, conn *ServerConn) error {$/;"	f	package:server	typeref:typename:error
+numSubRects	encodings/enc-corre.go	/^	numSubRects     uint32$/;"	m	struct:encodings.CoRREEncoding	typeref:typename:uint32
+numSubRects	encodings/enc-rre.go	/^	numSubRects     uint32$/;"	m	struct:encodings.RREEncoding	typeref:typename:uint32
+options	.vscode/tasks.json	/^                "options": {$/;"	o	object:tasks.0.osx
+options	.vscode/tasks.json	/^                "options": {$/;"	o	object:tasks.0.windows
+options	.vscode/tasks.json	/^    "options": {$/;"	o
+osx	.vscode/launch.json	/^            "osx": {$/;"	o	object:configurations.0
+osx	.vscode/launch.json	/^            "osx": {$/;"	o	object:configurations.1
+osx	.vscode/launch.json	/^            "osx": {$/;"	o	object:configurations.2
+osx	.vscode/tasks.json	/^            "osx": {$/;"	o	object:tasks.0
+parseProtocolVersion	client/client-conn.go	/^func parseProtocolVersion(pv []byte) (uint, uint, error) {$/;"	f	package:client	typeref:typename:(uint, uint, error)
+pf	common/client-message-type.go	/^	pf      *PixelFormat$/;"	m	struct:common.Color	typeref:typename:*PixelFormat
+pixelFormat	player/fbs-reader.go	/^	pixelFormat      *common.PixelFormat$/;"	m	struct:player.FbsReader	typeref:typename:*common.PixelFormat
+pixelFormat	server/server-conn.go	/^	pixelFormat *common.PixelFormat$/;"	m	struct:server.ServerConn	typeref:typename:*common.PixelFormat
+player	player/fbs-play-listener.go	/^package player$/;"	p
+player	player/fbs-reader.go	/^package player$/;"	p
+player	player/player_test.go	/^package player$/;"	p
+port	.vscode/launch.json	/^            "port": 2345,$/;"	n	object:configurations.0
+port	.vscode/launch.json	/^            "port": 2345,$/;"	n	object:configurations.1
+port	.vscode/launch.json	/^            "port": 2345,$/;"	n	object:configurations.2
+port	.vscode/launch.json	/^            "port": 2345,$/;"	n	object:configurations.3
+problemMatcher	.vscode/tasks.json	/^            "problemMatcher": "$go"$/;"	s	object:tasks.0
+program	.vscode/launch.json	/^            "program": "${workspaceRoot}\/player",$/;"	s	object:configurations.3
+program	.vscode/launch.json	/^            "program": "${workspaceRoot}\/proxy",$/;"	s	object:configurations.1
+program	.vscode/launch.json	/^            "program": "${workspaceRoot}\/recorder\/cmd",$/;"	s	object:configurations.2
+program	.vscode/launch.json	/^            "program": "${workspaceRoot}\/server",$/;"	s	object:configurations.0
+protocol	server/server-conn.go	/^	protocol string$/;"	m	struct:server.ServerConn	typeref:typename:string
+proxy	proxy/message-listeners.go	/^package proxy$/;"	p
+proxy	proxy/proxy.go	/^package proxy$/;"	p
+proxy	proxy/proxy_test.go	/^package proxy$/;"	p
+proxy	proxy/session-manager.go	/^package proxy$/;"	p
+proxy	proxy/vnc-session.go	/^package proxy$/;"	p
+pvLen	client/client-conn.go	/^const pvLen = 12 \/\/ ProtocolVersion message length.$/;"	c	package:client
+quit	server/server-conn.go	/^	quit chan struct{}$/;"	m	struct:server.ServerConn	typeref:typename:chan struct{}
+readErrorReason	client/client-conn.go	/^func (c *ClientConn) readErrorReason() string {$/;"	f	struct:client.ClientConn	typeref:typename:string
+readPixelFormat	client/pixel-format.go	/^func readPixelFormat(r io.Reader, result *common.PixelFormat) error {$/;"	f	package:client	typeref:typename:error
+reader	player/fbs-reader.go	/^	reader           io.Reader$/;"	m	struct:player.FbsReader	typeref:typename:io.Reader
+recorder	recorder/recorder.go	/^package recorder$/;"	p
+recorder	recorder/rfb-requester.go	/^package recorder$/;"	p
+remotePath	.vscode/launch.json	/^            "remotePath": "",$/;"	s	object:configurations.0
+remotePath	.vscode/launch.json	/^            "remotePath": "",$/;"	s	object:configurations.1
+remotePath	.vscode/launch.json	/^            "remotePath": "",$/;"	s	object:configurations.2
+remotePath	.vscode/launch.json	/^            "remotePath": "",$/;"	s	object:configurations.3
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.1
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.2
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.3
+reverseBits	client/client_auth.go	/^func (p *PasswordAuth) reverseBits(b byte) byte {$/;"	f	struct:client.PasswordAuth	typeref:typename:byte
+savedBytes	common/rfb-reader-helper.go	/^	savedBytes *bytes.Buffer$/;"	m	struct:common.RfbReadHelper	typeref:typename:*bytes.Buffer
+segmentChan	recorder/recorder.go	/^	segmentChan         chan *common.RfbSegment$/;"	m	struct:recorder.Recorder	typeref:typename:chan *common.RfbSegment
+selected-file	.idea/workspace.xml	/^    <todo-panel id="selected-file">$/;"	i
+sendFbsMessage	player/fbs-play-listener.go	/^func (h *FBSPlayListener) sendFbsMessage() {$/;"	f	struct:player.FBSPlayListener
+server	server/client-messages.go	/^package server$/;"	p
+server	server/handlers.go	/^package server$/;"	p
+server	server/security.go	/^package server$/;"	p
+server	server/server-conn.go	/^package server$/;"	p
+server	server/server.go	/^package server$/;"	p
+server	server/server_test.go	/^package server$/;"	p
+server	server/ws-server-go.go	/^package server$/;"	p
+serverInitMessage	recorder/recorder.go	/^	serverInitMessage   *common.ServerInit$/;"	m	struct:recorder.Recorder	typeref:typename:*common.ServerInit
+serverMessageMap	player/fbs-play-listener.go	/^	serverMessageMap map[uint8]common.ServerMessage$/;"	m	struct:player.FBSPlayListener	typeref:typename:map[uint8]common.ServerMessage
+sessionManager	proxy/proxy.go	/^	sessionManager   *SessionManager$/;"	m	struct:proxy.VncProxy	typeref:typename:*SessionManager
+sessionStartWritten	recorder/recorder.go	/^	sessionStartWritten bool$/;"	m	struct:recorder.Recorder	typeref:typename:bool
+sessions	proxy/session-manager.go	/^	sessions map[string]*VncSession$/;"	m	struct:proxy.SessionManager	typeref:typename:map[string]*VncSession
+showLog	.vscode/launch.json	/^            "showLog": true$/;"	b	object:configurations.0
+showLog	.vscode/launch.json	/^            "showLog": true$/;"	b	object:configurations.1
+showLog	.vscode/launch.json	/^            "showLog": true$/;"	b	object:configurations.2
+showLog	.vscode/launch.json	/^            "showLog": true$/;"	b	object:configurations.3
+showOutput	.vscode/tasks.json	/^    "showOutput": "always",$/;"	s
+simpleLogger	logger/logger.go	/^var simpleLogger = SimpleLogger{LogLevelInfo}$/;"	v	package:logger
+startTime	player/fbs-play-listener.go	/^	startTime        int$/;"	m	struct:player.FBSPlayListener	typeref:typename:int
+startTime	recorder/recorder.go	/^	startTime           int$/;"	m	struct:recorder.Recorder	typeref:typename:int
+subRectData	encodings/enc-corre.go	/^	subRectData     []byte$/;"	m	struct:encodings.CoRREEncoding	typeref:typename:[]byte
+subRectData	encodings/enc-rre.go	/^	subRectData     []byte$/;"	m	struct:encodings.RREEncoding	typeref:typename:[]byte
+taskName	.vscode/tasks.json	/^            "taskName": "install",$/;"	s	object:tasks.0
+taskName	.vscode/tasks.json	/^            "taskName": "test",$/;"	s	object:tasks.1
+tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
+timestamp	player/fbs-reader.go	/^	timestamp uint32$/;"	m	struct:player.FbsSegment	typeref:typename:uint32
+type	.vscode/launch.json	/^            "type": "go",$/;"	s	object:configurations.0
+type	.vscode/launch.json	/^            "type": "go",$/;"	s	object:configurations.1
+type	.vscode/launch.json	/^            "type": "go",$/;"	s	object:configurations.2
+type	.vscode/launch.json	/^            "type": "go",$/;"	s	object:configurations.3
+vendor	server/handlers.go	/^	vendor [4]byte$/;"	m	struct:server.TightCapability	typeref:typename:[4]byte
+version	.vscode/launch.json	/^    "version": "0.2.0",$/;"	s
+version	.vscode/tasks.json	/^    "version": "0.1.0",$/;"	s
+versionMsg_3_3	recorder/recorder.go	/^const versionMsg_3_3 = "RFB 003.003\\n"$/;"	c	package:recorder
+versionMsg_3_7	recorder/recorder.go	/^const versionMsg_3_7 = "RFB 003.007\\n"$/;"	c	package:recorder
+versionMsg_3_8	recorder/recorder.go	/^const versionMsg_3_8 = "RFB 003.008\\n"$/;"	c	package:recorder
+vncproxy	proxy/cmd/main.go	/^	vncproxy "github.com\/amitbet\/vncproxy\/proxy"$/;"	P	package:github.com/amitbet/vncproxy/proxy
+windows	.vscode/launch.json	/^            "windows": {$/;"	o	object:configurations.0
+windows	.vscode/launch.json	/^            "windows": {$/;"	o	object:configurations.1
+windows	.vscode/launch.json	/^            "windows": {$/;"	o	object:configurations.2
+windows	.vscode/tasks.json	/^            "windows": {$/;"	o	object:tasks.0
+writePixelFormat	client/pixel-format.go	/^func writePixelFormat(format *common.PixelFormat) ([]byte, error) {$/;"	f	package:client	typeref:typename:([]byte, error)
+writeStartSession	recorder/recorder.go	/^func (r *Recorder) writeStartSession(initMsg *common.ServerInit) error {$/;"	f	struct:recorder.Recorder	typeref:typename:error
+writeToDisk	recorder/recorder.go	/^func (r *Recorder) writeToDisk() error {$/;"	f	struct:recorder.Recorder	typeref:typename:error
+writer	recorder/recorder.go	/^	writer      *os.File$/;"	m	struct:recorder.Recorder	typeref:typename:*os.File
+wsHandlerFunc	server/server.go	/^func wsHandlerFunc(ws io.ReadWriter, cfg *ServerConfig, sessionId string) {$/;"	f	package:server

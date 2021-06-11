@@ -20,6 +20,7 @@ type VncProxy struct {
 	WsListeningURL   string      // empty = not listening on ws
 	RecordingDir     string      // empty = no recording
 	ProxyVncPassword string      //empty = no auth
+	ProxyTOTPSecret  string
 	SingleSession    *VncSession // to be used when not using sessions
 	UsingSessions    bool        //false = single session - defined in the var above
 	sessionManager   *SessionManager
@@ -173,7 +174,10 @@ func (vp *VncProxy) StartListening() {
 
 	if vp.ProxyVncPassword != "" {
 		secHandlers = []server.SecurityHandler{&server.ServerAuthVNC{vp.ProxyVncPassword}}
+	} else if vp.ProxyTOTPSecret != "" {
+		secHandlers = []server.SecurityHandler{&server.ServerTOTPAuthVNC{vp.ProxyTOTPSecret}}
 	}
+
 	cfg := &server.ServerConfig{
 		SecurityHandlers: secHandlers,
 		Encodings:        []common.IEncoding{&encodings.RawEncoding{}, &encodings.TightEncoding{}, &encodings.CopyRectEncoding{}},
